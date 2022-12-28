@@ -1,0 +1,41 @@
+.button {
+    padding: 1rem;
+    border-radius: 1rem;
+    width: 20rem;
+    height: 6rem;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    margin-right: 4px;
+    background: var(--gradient);
+    border-color: rgb(226, 222, 222);
+    border-width: 1px;
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    color: var(--text-color);
+    transition: filter 300ms;
+    margin-right: 40px;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.button:hover {
+    filter: brightness(1.05)
+}
+
+.button:focus {
+    filter: brightness(0.95)
+}
+
+@keyframes fade-up {
+    0% {
+        opacity: 0;
+        transform: translateY(-100%);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0%);
+    }
+}
