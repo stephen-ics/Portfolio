@@ -145,7 +145,7 @@ const Home = () => {
   };
   return (
     <motion.div 
-    className='h-full text-slate-900 flex flex-col mt-24 w-full'
+    className='homeContainer'
     variants={container}
     initial='hidden'
     animate='visible'
@@ -154,17 +154,17 @@ const Home = () => {
     <motion.div className='flex justify-center'>
       <motion.div className='flex flex-col justify-around'>
         <motion.div>
-          <motion.h1 className='text-6xl font-bold'
+          <motion.h1 className='heading2'
             variants={textUp}
           >
             👋 Hey 
           </motion.h1>
-          <motion.h1 className='text-9xl font-bold'
+          <motion.h1 className='heading1'
             variants={textUp}
           >
             I'm Stephen Ni
           </motion.h1>
-          <motion.div className='text-3xl mb-8 mt-8'
+          <motion.div className='heading3 mb-8 mt-8'
             variants={textUp}>
               <Typewriter
                 options={{
@@ -206,14 +206,14 @@ const Home = () => {
           </Link>
         </motion.div>
       </motion.div>
-      <motion.div
+    </motion.div>
+    <motion.div
         whileHover={{scale:1.1}}
         whileTap={{scale:0.9}}
         variants={imageRight}
         >     
-          <img src={Logo} className='w-96 ml-40 rounded-full object-cover border-green-500 border-solid border-3'/>
+          <img src={Logo} className='m-20 rounded-full object-cover border-green-500 border-solid'/>
       </motion.div>
-    </motion.div>
   </motion.div>
   )
 }
