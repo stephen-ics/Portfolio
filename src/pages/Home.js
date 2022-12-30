@@ -4,6 +4,14 @@ import { Link } from 'react-router-dom';
 import Typewriter from 'typewriter-effect'
 import './page-styles/Home.css'
 import Logo from '../pictures/Logo.png'
+import HomeProjects from '../components/HomeProjects'
+
+import StockStalker from '../pictures/Logo.png'
+import PlantUp from '../pictures/Logo.png'
+import CodeBro from '../pictures/Logo.png'
+import DeSsert from '../pictures/Logo.png'
+import CloseConnect from '../pictures/Logo.png'
+import TokensForGood from '../pictures/Logo.png'
 
 const Home = () => {
   const container = {
@@ -213,6 +221,26 @@ const Home = () => {
         variants={imageRight}
         >     
           <img src={Logo} className='m-20 rounded-full object-cover border-green-500 border-solid'/>
+      </motion.div>
+      <motion.div className='flex flex-col items-center mt-40'>
+        <motion.div variants={imageUp} className='homeProject'>
+          <HomeProjects title='StockStalker: Hack the 6ix Winner' date='August 2022' subtitle='To search, manage, and see the overall ESG performance' image={StockStalker} link='https://devpost.com/software/stock-stalker-4jrosz'/>
+        </motion.div>
+        <motion.div variants={imageUp} className='homeProject'>
+          <HomeProjects title='PlantUp: Backyard Hacks III Winner' date='July 2022' subtitle='To make gardening an exciting experience' image={PlantUp} link='https://devpost.com/software/plantup'/>
+        </motion.div>
+        <motion.div variants={imageUp} className='homeProject'>
+          <HomeProjects title='CodeBro: Hacky Birthay MLH! 2022 Winner' date='July 2022' subtitle='To practice both their web design and competitive problem-solving skills offline' image={CodeBro} link='https://devpost.com/software/codebro'/>
+        </motion.div>
+        <motion.div variants={imageUp} className='homeProject'>
+          <HomeProjects title='DeSsert: FreyHacks Winner' date='June 2022' subtitle="Find the perfect recipe while owning the rights to your content on the world's first decentralized recipe sharing site" image={DeSsert} link='link'/>
+        </motion.div>
+        <motion.div variants={imageUp} className='homeProject'>
+          <HomeProjects title='Close Connect: WaffleHacks 2022 Winner' date='June 2022' subtitle='To meet others who live in different regions and celebrate your differences' image={CloseConnect} link='link'/>
+        </motion.div>
+        <motion.div variants={imageUp} className='homeProject'>
+          <HomeProjects title='Tokens For Good: JAMHacks 6 Winner' date='May 2022' subtitle='To provide an incentive to donate through collectible NFTs' image={TokensForGood} link='https://devpost.com/software/decharity-gvhxw2'/>
+        </motion.div>
       </motion.div>
   </motion.div>
   )
