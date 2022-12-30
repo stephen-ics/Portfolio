@@ -45,7 +45,6 @@ const Project = () => {
  
     >
       <h1 className='text-5xl text-center mt-10'>Projects</h1>
-      <Modal title="asdasd" subtitle="asdasd" description="asdasd" image={StockStalker} />
       <div className='w-full flex justify-center'>
         <div className='flex flex-col items-start'>
             <div className='flex'>

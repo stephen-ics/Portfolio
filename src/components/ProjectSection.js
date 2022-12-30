@@ -5,7 +5,6 @@ import { SiDevpost } from 'react-icons/si'
 
 const ProjectSection = ({ whileHover, whileTap, className, onClick, title, subtitle, image, devpost, github }) => {
   return (
-
     <motion.button
         whileHover={whileHover}
         whileTap={whileTap}

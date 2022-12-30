@@ -20,9 +20,7 @@ const HomeProjects = ( {title, date, subtitle, image, link} ) => {
         whileTap={{scale:0.975}}
         onHoverStart={handleHover}
         onHoverEnd={handleHover}>            
-            <motion.div className='backdrop' style={{backgroundImage: `url(${image})`}}>
-                
-                
+            <motion.div className='backdrop' style={{backgroundImage: `url(${image})`}}>  
             </motion.div>
             <motion.div className={hover ? "project hovering p-10 text-center": "project nothovering h-1/2 w-1/5 flex items-center justify-center text-center"}>
                 <div className='flex flex-col'>
