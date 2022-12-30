@@ -1,12 +1,9 @@
-
-.container {
-    width: calc(10rem + 36vw);
-    display: flex;
-    flex-wrap: wrap;
+.progress-wrapper {
+    width: 100%;
 }
 
 .progress-container{
-    width: 10vw;
+    width: 40%;
     margin: 1vw;
 }
 

@@ -1,11 +1,14 @@
+.aboutheading0 {
+    font-size: calc(1.5rem + 1vw);
+    font-weight: 600;
+}
+
 .aboutheading1 {
-    font-size: calc(2rem + 4.0625vw);
+    font-size: calc(1rem + 1vw);
+    font-weight: 600;
 }
 
 .aboutheading2 {
-    font-size: calc(1rem + 2.60625vw);
+    font-size: calc(0.75rem + 0.8vw);
 }
 
-.aboutheading3 {
-    font-size: calc(0.5rem + 1.60625vw);
-}

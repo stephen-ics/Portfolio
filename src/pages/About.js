@@ -165,30 +165,30 @@ const About = () => {
   };
 
   return (
-    <div className='flex justify-center bg-black'>
+    <div className='flex justify-center m-4'>
       <motion.div className='flex flex-col'
         variants={container}
         initial='hidden'
         animate='visible'
         exit='exit'
       >
-      <div className='flex flex-col text-slate-900 bg-blue-50'>
-        <div className='flex justify-around flex-wrap bg-red-300'>
-          <motion.img variants={imageLeft} src={Logo} className='rounded-3xl object-cover'/>
-          <div className='flex flex-col justify-around bg-green-400'>
+      <div className='flex flex-col text-slate-900 mt-8'>
+        <div className='flex flex-wrap'>
+          <motion.img src={Logo} variants={imageLeft} className='m-20 rounded-3xl object-cover border-green-500 border-solid'/>
+          <div className='flex flex-col justify-around'>
             <div>
-              <motion.h1 variants={textUp} className='heading4'>Hello! I'm Stephen</motion.h1>
-              <motion.h2 variants={textUp2} className='heading5'>I'm a high school student at John Fraser Secondary School and an aspiring full-stack developer</motion.h2>
-              <motion.h2 variants={textUp2} className='heading6'>I have experience with front end web development including blah blah blah</motion.h2>
+              <motion.h1 variants={textUp} className='aboutheading1'>Hello! I'm Stephen</motion.h1>
+              <motion.h2 variants={textUp2} className='aboutheading2'>I'm a high school student at John Fraser Secondary School and an aspiring full-stack developer</motion.h2>
+              <motion.h2 variants={textUp2} className='aboutheading2'>I have experience with front end web development including blah blah blah</motion.h2>
             </div>
             <motion.div variants={imageUp}>
               <Progress />
             </motion.div>
           </div>      
         </div>
-        <div className='bg-purple-400'>
-          <motion.h2 variants={textUp3} className='text-4xl'>Hobbies</motion.h2>
-          <motion.div className='flex flex-wrap justify-center'>
+        <div className=''>
+          <motion.h2 variants={textUp3} className='aboutheading0 mt-8'>Hobbies</motion.h2>
+          <motion.div className='flex flex-wrap justify-evenly'>
             <motion.div variants={imageUp}>
               <Cardflip title='Math' subtitle='I do math' description="Math has always been an inescapable part of my childhood, but overtime I've grown to love it!" image={Math}/>
             </motion.div>
@@ -203,9 +203,9 @@ const About = () => {
             </motion.div>
           </motion.div>
         </div>
-        <div className='bg-yellow-300'>
-          <h2 className='text-4xl'>Values</h2>
-          <div className='flex flex-wrap justify-center'>
+        <div className=''>
+          <h2 className='aboutheading0 mt-8'>Values</h2>
+          <div className='flex flex-wrap justify-evenly'>
             <Cardflip2 title='Tenacious' subtitle='Risks are meant to be taken' description='If there is a risk, I will take it. I put my all into every project I start. Whenever I start a project, I always make sure to try a new technology or learn a new skill, so that I am always constantly learning and improving' image={Math}/>
             <Cardflip2 title='Open-minded' subtitle='Mistakes are a blessing' description='There is no success without failure, that is why I appreciate any sort of critism, and I always make sure apply the feedback I receive to make my next project my best project.' image={Piano}/>
           </div>

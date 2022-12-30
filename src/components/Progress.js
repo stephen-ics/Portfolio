@@ -3,7 +3,7 @@ import './component-styles/Progress.css'
 
 function SkillsBar () {
    return (
-    <div className='flex flex-wrap shadow-2xl rounded-2xl container'>
+    <div className='flex flex-wrap rounded-2xl progress-wrapper'>
         <div className="progress-container"> 
             <div className="skill-box">
                 <span className="title">ReactJS</span>
