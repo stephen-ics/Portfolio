@@ -1,12 +1,13 @@
 .modal {
   width: calc(5rem + 75vw);
-  height: calc(5rem + 60vh);
+  height: calc(5rem + 50vh);
   margin: auto;
   padding: 0;
   padding-right: 2rem;
   border-radius: 12px;
   display: flex;
   background: var(--gradient);
+  overflow-y: auto;
 }
 
 .modal-button {
@@ -50,9 +51,28 @@
 
   .modal-description {
     font-size: calc(0.5rem + 0.5vw);
+    text-overflow: clip;
+    padding-bottom: 1rem;
   }
 
   .modal-logo {
-    width: 5vw;
-    size: 500px;
+      size:100px;
   }
+
+  .modal-text-separator {
+      margin-top: calc(0.25rem + 0.25vw);
+      margin-left: calc(0.15rem + 1.5vw);
+  }
+
+  .modal-icon-separator {
+    margin-top: calc(0.25rem + 2.5vh + 2.5vw);
+    margin-left: calc(0.15rem + 0.5vw);
+    margin-right: calc(0.15rem + 0.5vw);
+}
+
+.project-section-icons {
+    padding-top: calc(0.125rem + 0.25vw);
+    padding-bottom: calc(0.125rem + 0.25vw);
+    padding-left: calc(0.25rem + 0.5vw);
+    padding-right: calc(0.25rem + .5vw);
+}

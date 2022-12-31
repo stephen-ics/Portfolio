@@ -26,7 +26,7 @@ const Home = () => {
       },
     },
     exit: {
-        y: '-20vh',
+        y: '-10vh',
         opacity: 0,
         transition: {
           duration: 0.25,

@@ -51,21 +51,21 @@ const Modal = ({ handleClose, title, subtitle, description, techStack, image, gi
                 
             >
                 <img src={image} className='object-cover rounded-l-xl w-full modal-image'/>
-                <div className='w-full flex flex-col items-center ml-10'>
+                <div className='w-full flex flex-col items-center'>
                     <ModalButton onClick={handleClose} label='Close'></ModalButton>
-                    <div className='flex w-full h-full justify-between mt-10 items-start ml-4'>
-                        <div>
+                    <div className='flex w-full h-full justify-between items-start'>
+                        <div className='modal-text-separator'>
                             <h1 className='modal-title'>{title}</h1>
                             <h3 className='modal-date'>{subtitle}</h3>
                             <p className='modal-description mt-2'>{description}</p>
-                            <p className='modal-description mt-10'>{techStack}</p>
+                            <p className='modal-description mt-6'>{techStack}</p>
                         </div>
-                        <div className='flex flex-col mt-10 justify-evenly pl-16 mr-10'>
-                            <a href={devpost} target='_blank' className='flex flex-col items-center my-10'>
+                        <div className='flex flex-col justify-evenly pl-16'>
+                            <a href={devpost} target='_blank' className='flex flex-col items-center modal-icon-separator'>
                                 <h1 className='text-2xl'>Devpost</h1>
-                                <SiDevpost className='modal-logo'/>
+                                <SiDevpost size={60}/>
                             </a>
-                            <a href={github} target='_blank' className='mb-20 flex flex-col items-center my-10'>
+                            <a href={github} target='_blank' className='flex flex-col items-center modal-icon-separator'>
                                 <h1 className='text-2xl'>Github</h1>
                                 <FaGithub size={60}/>
                             </a>

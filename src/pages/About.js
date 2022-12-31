@@ -15,7 +15,7 @@ import Progress from '../components/Progress'
 const About = () => {
   const container = {
     hidden: {
-        y: '10vh',
+        y: '-10vh',
         opacity: 0,
     },
     visible: {
@@ -26,12 +26,12 @@ const About = () => {
       },
     },
     exit: {
-        y: '-20vh',
-        opacity: 0,
-        transition: {
-          duration: 0.25,
-        }
-    },
+      y: '-10vh',
+      opacity: 0,
+      transition: {
+        duration: 0.25,
+      }
+  },
   };
 
   const textUp = {

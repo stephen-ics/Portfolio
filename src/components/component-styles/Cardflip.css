@@ -15,6 +15,7 @@
     width: calc(12rem + 10vw);
     height: calc(24rem + 5vw);
     perspective: 1000px;
+    overflow-y: auto;
 }
   
   .cardInner {

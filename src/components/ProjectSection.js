@@ -37,13 +37,13 @@ const ProjectSection = ({ whileHover, whileTap, className, onClick, title, subti
       </div>
       <div className='flex justify-evenly mb-3 mt-3'>
       <a href='https://google.com' target='_blank'>
-        <div className='flex justify-between items-center bg-blue-600 px-2 py-1 rounded-xl'>
+        <div className='flex justify-between items-center bg-blue-600 rounded-xl project-section-icons'>
           <p className='text-lg mr-4 text-white'>Devpost</p>
           <SiDevpost size={40} color='rgb(12,56,145)' />
         </div>
       </a>
        <a href='https://google.com' target='_blank'>
-          <div className='flex justify-between items-center bg-slate-800 px-2 py-1 rounded-xl'>
+          <div className='flex justify-between items-center bg-slate-800 rounded-xl project-section-icons'>
             <p className='text-lg mr-4 text-white'>Github</p>
             <a href='https://google.com' target='_blank'><FaGithub size={40}/></a>
           </div> 
