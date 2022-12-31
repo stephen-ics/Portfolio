@@ -6,14 +6,14 @@ import { motion } from 'framer-motion'
 import Modal from '../components/Modal.js';
 
 
-import StockStalker from '../pictures/Logo.png'
-import PlantUp from '../pictures/Logo.png'
-import CodeBro from '../pictures/Logo.png'
-import DeSsert from '../pictures/Logo.png'
-import CloseConnect from '../pictures/Logo.png'
-import TokensForGood from '../pictures/Logo.png'
-import Concerto from '../pictures/Logo.png'
-import BitBots from '../pictures/Logo.png'
+import BitBots from '../pictures/projects/BitBots.png'
+import TokensForGood from '../pictures/projects/TokensForGood.png'
+import CloseConnect from '../pictures/projects/CloseConnect.png'
+import DeSsert from '../pictures/projects/Dessert.png'
+import Concerto from '../pictures/projects/Concerto.png'
+import CodeBro from '../pictures/projects/CodeBro.png'
+import PlantUp from '../pictures/projects/PlantUp.png'
+import StockStalker from '../pictures/projects/StockStalker.png'
 
 const Project = () => {
   const container = {
