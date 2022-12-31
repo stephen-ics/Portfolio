@@ -5,7 +5,7 @@ import './component-styles/Backdrop.css'
 const Backdrop = ({ children, onClick }) => {
     return (
         <motion.div
-        className='backdrop'
+        className='modal-backdrop'
         onClick={onClick}
         initial={{opacity:0}}
         animate={{opacity:1}}

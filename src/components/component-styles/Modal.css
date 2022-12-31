@@ -1,43 +1,58 @@
-
 .modal {
-    width: clamp(50%, 1600px, 90%);
-    height: 600px;
-    margin: auto;
-    padding: 0;
-    padding-right: 2rem;
-    border-radius: 12px;
-    background-color: rgb(211, 211, 224);
-    display: flex;
-  }
-  
-  
-  .modal-button {
-    padding: 0 2rem;
-    height: 2.5rem;
-    margin-top: 1.5rem;
-    background: #101111;
-    color: #c5dae5;
-    border-radius: 4px;
-    transition: background ease 400ms;
-    box-shadow: 0px 0px 10px #03030399;
-  }
-  
+  width: calc(5rem + 75vw);
+  height: calc(5rem + 60vh);
+  margin: auto;
+  padding: 0;
+  padding-right: 2rem;
+  border-radius: 12px;
+  display: flex;
+  background: var(--gradient);
+}
+
+.modal-button {
+  padding: 0 2rem;
+  height: 2.5rem;
+  margin-top: 1.5rem;
+  background: #101111;
+  color: #c5dae5;
+  border-radius: 4px;
+  transition: background ease 400ms;
+  box-shadow: 0px 0px 10px #03030399;
+}
   .project-section {
     border-radius: 1rem;
     color: rgb(40, 40, 43);
     transition: filter 300ms;
     width: calc(12rem + 14vw);
-
     justify-content: space-around;
     align-items: center;
-    margin: 1rem;
-    background-color: rgb(211, 211, 224);
+    margin: 1.5rem;
+    background-color: rgb(240, 240, 246);
     box-shadow: 0 10px 20px 0 rgba(126, 122, 122, 0.5);
     padding-bottom: 1rem;
   }
 
-  
+  .modal-image {
+    width: 30vw;
+  }
   
   .project-section:hover {
     filter: brightness(1.1)
+  }
+
+  .modal-title {
+    font-size: calc(1.25rem + 2vw);
+  }
+
+  .modal-date {
+    font-size: calc(0.75rem + 1.5vw);
+  }
+
+  .modal-description {
+    font-size: calc(0.5rem + 0.5vw);
+  }
+
+  .modal-logo {
+    width: 5vw;
+    size: 500px;
   }

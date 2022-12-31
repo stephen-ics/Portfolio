@@ -1,6 +1,6 @@
 .project-container {
-    width: 80vw;
-    height: 60vw;
+    width: calc(6rem + 70vw);
+    height: calc(6rem + 60vw);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -8,12 +8,12 @@
 
 .title {
     transition: transform 1s ease-in-out;
-    font-size: calc(2rem + 4.0625vw);
+    font-size: calc(1.5rem + 4.0625vw);
     line-height: 1em;
 }
 
 .subtitle {
-    font-size: calc(1rem + 2.0625vw);
+    font-size: calc(0.75rem + 2.0625vw);
     line-height: 1em;
 }
 
@@ -90,7 +90,7 @@
         transform: translateY(0%);
     }
     100% {
-        transform: translateY(-5rem);
+        transform: translateY(calc(-1.5rem - 2vh));
         color: white;
     }
 }

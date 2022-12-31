@@ -90,6 +90,26 @@ const About = () => {
     },
   };
 
+  const textUp4 = {
+    hidden: {
+        x: '-5vh',
+        opacity: 0,
+    },
+    visible: { 
+        x: 0,
+        opacity: 1,
+        transition: {
+            delay: 3.5,
+            duration: 2,
+            ease: [0.6, 0.01, 0.05, 0.95],
+        }
+    },
+    exit: {
+        opacity: 0,
+    },
+  };
+
+
   const imageLeft = {
     hidden: {
         x: '-5vh',
@@ -107,6 +127,25 @@ const About = () => {
         opacity: 0,
     },
   };
+
+  const imageRight = {
+    hidden: {
+        x: '5vh',
+        opacity: 0,
+    },
+    visible: { 
+        x: 0,
+        opacity: 1,
+        transition: {
+            duration: 2,
+            ease: [0.6, 0.01, 0.05, 0.95],
+        }
+    },
+    exit: {
+        opacity: 0,
+    },
+  };
+
 
   const progressUp = {
     hidden: {
@@ -204,10 +243,14 @@ const About = () => {
           </motion.div>
         </div>
         <div className=''>
-          <h2 className='aboutheading0 mt-8'>Values</h2>
+          <motion.h2 className='aboutheading0 mt-8' variants={textUp}>Values</motion.h2>
           <div className='flex flex-wrap justify-evenly'>
+          <motion.div variants={imageLeft}>
             <Cardflip2 title='Tenacious' subtitle='Risks are meant to be taken' description='If there is a risk, I will take it. I put my all into every project I start. Whenever I start a project, I always make sure to try a new technology or learn a new skill, so that I am always constantly learning and improving' image={Math}/>
+          </motion.div>
+          <motion.div variants={imageRight}>  
             <Cardflip2 title='Open-minded' subtitle='Mistakes are a blessing' description='There is no success without failure, that is why I appreciate any sort of critism, and I always make sure apply the feedback I receive to make my next project my best project.' image={Piano}/>
+          </motion.div>
           </div>
         </div>
       </div>

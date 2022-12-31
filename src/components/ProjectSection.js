@@ -4,12 +4,31 @@ import { FaGithub } from 'react-icons/fa'
 import { SiDevpost } from 'react-icons/si'
 
 const ProjectSection = ({ whileHover, whileTap, className, onClick, title, subtitle, image, devpost, github }) => {
+  const textUp = {
+    hidden: {
+        y: '15vh',
+        opacity: 0,
+    },
+    visible: { 
+        zIndex: 1,
+        y: 0,
+        opacity: 1,
+        transition: {
+            duration: 1.2,
+            ease: [0.6, 0.01, 0.05, 0.95],
+        }
+    },
+    exit: {
+        opacity: 0,
+    },
+  };
   return (
     <motion.button
         whileHover={whileHover}
         whileTap={whileTap}
         className={className}
         onClick={onClick}
+    
     > 
       <div className='flex flex-col items-center w-full h-full'>
         <img src={image} className='w-full h-full object-cover rounded-t-2xl'></img>
