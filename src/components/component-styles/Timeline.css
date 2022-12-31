@@ -2,8 +2,8 @@ body {
   font-family: "Montserrat", sans-serif;
 }
 
-.title {
-  font-size: 15em;
+.timeline-title {
+  font-size: 15vw;
   text-align: center;
   font-family: "Bebas Neue", sans-serif;
 }
@@ -18,15 +18,15 @@ h3 {
   padding: 2em 3em !important;
 }
 
-.date {
-  color: rgb(201, 251, 255);
+.timeline-date {
+  color: rgb(0, 0, 0);
 }
 
-#description {
+#timeline-description {
   margin: 1.5em 0 2em 0;
 }
 
-.button {
+.timeline-button {
   text-decoration: none;
   padding: 0.5em 1em;
   border-radius: 5px;

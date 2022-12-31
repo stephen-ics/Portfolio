@@ -34,13 +34,7 @@ const Experience = () => {
     animate='visible'
     exit='exit'
   >
-    <h1 className='text-4xl'>My Timeline</h1>
-    <div className='mt-5'>
-      <div>
-        <h1 className='year'>2022</h1>
-        <Timeline/>
-      </div>
-    </div>
+    <Timeline/>
   </motion.div>
   )
 }

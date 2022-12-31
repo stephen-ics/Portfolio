@@ -14,10 +14,10 @@ const Timeline = () => {
     let schoolIconStyles = { background: "#f9c74f" };
     return (
         <div>
-        <h1 className="title">Timeline</h1>
+        <h1 className="timeline-title">Timeline</h1>
         <VerticalTimeline>
           {TimelineData.map((element) => {
-            let isWorkIcon = element.icon === "work";
+            let isWorkIcon = (element.icon === "work");
             let showButton =
               element.buttonText !== undefined &&
               element.buttonText !== null &&
@@ -27,11 +27,29 @@ const Timeline = () => {
               <VerticalTimelineElement
                 key={element.key}
                 date={element.date}
-                dateClassName="date"
+                dateClassName="timeline-date"
                 iconStyle={isWorkIcon ? workIconStyles : schoolIconStyles}
-                icon={isWorkIcon ? <WorkIcon /> : <SchoolIcon />}
+                icon={isWorkIcon ? <img src={WorkIcon} /> : <img src={SchoolIcon} />}
               >
-                  sadasd
+              <img src={WorkIcon} className='w-40'/>
+              <h3 className="vertical-timeline-element-title">
+                {element.title}
+              </h3>
+              <h3>{element.association}</h3>
+              <h5 className="vertical-timeline-element-subtitle">
+                {element.location}
+              </h5>
+              <p id="timeline-description">{element.description}</p>
+              {showButton && (
+                <a
+                  className={`timeline-button ${
+                    isWorkIcon ? "workButton" : "schoolButton"
+                  }`}
+                  href="/"
+                >
+                  {element.buttonText}
+                </a>
+              )}
               </VerticalTimelineElement>
             );
           })}
