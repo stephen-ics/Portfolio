@@ -31,12 +31,12 @@ const Timeline = () => {
                 iconStyle={isWorkIcon ? workIconStyles : schoolIconStyles}
                 icon={isWorkIcon ? <img src={WorkIcon} /> : <img src={SchoolIcon} />}
               >
-              <img src={WorkIcon} className='w-40'/>
-              <h3 className="vertical-timeline-element-title">
+              <img src={WorkIcon} className='timeline-image'/>
+              <h3 className="vertical-timeline-element-title timeline-title">
                 {element.title}
               </h3>
-              <h3>{element.association}</h3>
-              <h5 className="vertical-timeline-element-subtitle">
+              <h3 className='vertical-timeline-element-subtitle timeline-subtitle'>{element.association}</h3>
+              <h5 className="vertical-timeline-element-subtitle timeline-subtitle">
                 {element.location}
               </h5>
               <p id="timeline-description">{element.description}</p>

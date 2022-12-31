@@ -6,8 +6,8 @@
     padding: 0;
     padding-right: 2rem;
     border-radius: 12px;
+    background-color: rgb(211, 211, 224);
     display: flex;
-    background: var(--gradient);
   }
   
   
@@ -24,20 +24,19 @@
   
   .project-section {
     border-radius: 1rem;
-    background: var(--gradient);
-    border-color: var(--gradient);
-    color: white;
+    color: rgb(40, 40, 43);
     transition: filter 300ms;
-    width: 24rem;
-    margin-right: 2rem;
-    margin-left: 8rem;
+    width: calc(12rem + 14vw);
+
     justify-content: space-around;
     align-items: center;
-    margin-top: 2.5rem;
-    margin-bottom: 2.5rem;
-    box-shadow: 0 10px 20px 0 rgb(0 0 0/0.5);
+    margin: 1rem;
+    background-color: rgb(211, 211, 224);
+    box-shadow: 0 10px 20px 0 rgba(126, 122, 122, 0.5);
     padding-bottom: 1rem;
   }
+
+  
   
   .project-section:hover {
     filter: brightness(1.1)

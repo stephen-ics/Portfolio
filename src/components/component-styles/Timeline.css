@@ -1,11 +1,24 @@
-body {
-  font-family: "Montserrat", sans-serif;
-}
+
 
 .timeline-title {
-  font-size: 15vw;
+  font-size: calc(1rem + 0.6vw);
   text-align: center;
   font-family: "Bebas Neue", sans-serif;
+  font-weight: 600;
+}
+
+.timeline-subtitle {
+  font-size: calc(0.6rem + 0.4vw);
+  text-align: center;
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 500;
+
+}
+
+.timeline-image {
+  width: 90%;
+  height: calc(2rem + 3vw);
+  object-fit: cover;
 }
 
 h3 {
