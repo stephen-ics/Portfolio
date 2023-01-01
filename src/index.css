@@ -7,9 +7,13 @@
 }
 
 body {
-    background-color: var(--bg-2)
+    background-color: var(--bg-2);
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    background-repeat: no-repeat;
+    background-attachment:fixed;
+    min-width:fit-content;
 }
-  
 
 :root {
     --bg: hsl(0, 0%, 100%);
