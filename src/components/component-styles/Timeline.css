@@ -17,9 +17,10 @@
 
 .timeline-image {
   width: 90%;
-  height: calc(2rem + 3vw);
+  height: 12.5vh;
   object-fit: cover;
 }
+
 
 h3 {
   padding-top: 0.25em;

@@ -1,7 +1,6 @@
 
 import React from 'react'
 import '../components/component-styles/HomeProjects.css';
-import Logo from '../pictures/Logo.png'
 import { motion } from 'framer-motion'
 import { useState, useEffect } from 'react'
 

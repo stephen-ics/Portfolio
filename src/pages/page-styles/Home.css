@@ -56,7 +56,8 @@
 
 img {
     width: calc(16rem + 6.060625vw);
-    border-width: calc(0.1rem + .40625vw);
+    border-width: calc(0.1rem + .14625vw);
+    border-color: rgb(129, 129, 129);
 }
 
 @keyframes fade-up {

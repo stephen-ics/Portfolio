@@ -29,16 +29,17 @@
     align-items: center;
     margin: 1.5rem;
     background-color: rgb(240, 240, 246);
-    box-shadow: 0 10px 20px 0 rgba(126, 122, 122, 0.5);
+    box-shadow: 0 10px 20px 0 rgba(199, 198, 198, 0.5);
     padding-bottom: 1rem;
   }
 
   .modal-image {
     width: 30vw;
+    border: none;
   }
   
   .project-section:hover {
-    filter: brightness(1.1)
+    filter: brightness(1.05)
   }
 
   .modal-title {

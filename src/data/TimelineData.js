@@ -12,6 +12,7 @@ const TimelineData = [
     buttonText: "Certificate of Completion",
     date: "August 2022 - Present",
     icon: "work",
+    image: "InspiritAI.png" ,
   },
   {
     id: 2,
@@ -23,6 +24,7 @@ const TimelineData = [
     buttonText: "Website",
     date: "July 2022 - Present",
     icon: "work",
+    image: "TMUN.png" ,
   },
   {
     id: 3,
@@ -34,6 +36,7 @@ const TimelineData = [
     buttonText: "Website",
     date: "June 2022 - Present",
     icon: "work",
+    image: "TurtleHacks.png" ,
   },
   {
     id: 4,
@@ -45,6 +48,7 @@ const TimelineData = [
     buttonText: "Website",
     date: "September 2011",
     icon: "school",
+    image: "IgnitionHacks.png" ,
   },
   {
     id: 5,
@@ -56,6 +60,7 @@ const TimelineData = [
     buttonText: "Website",
     date: "May 2022 - Present",
     icon: "school",
+    image: "JohnFraserSAC.png" ,
   },
   {
     id: 6,
@@ -66,6 +71,7 @@ const TimelineData = [
       "Highschool - Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec scelerisque sagittis tellus, non ultrices lacus tempus vel.",
     date: "May 2022 - Present",
     icon: "school",
+    image: "JFSSCS.png" ,
   },
   {
     id: 7,
@@ -76,6 +82,7 @@ const TimelineData = [
       "Highschool - Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec scelerisque sagittis tellus, non ultrices lacus tempus vel.",
     date: "May 2022 - Present",
     icon: "school",
+    image: "MathClub.png" ,
   },
   {
     id: 8,
@@ -86,6 +93,7 @@ const TimelineData = [
       "Highschool - Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec scelerisque sagittis tellus, non ultrices lacus tempus vel.",
     date: "May 2022 - Present",
     icon: "school",
+    image: "InvestmentClub.png" ,
   },
   {
     id: 9,
@@ -96,6 +104,7 @@ const TimelineData = [
       "Highschool - Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec scelerisque sagittis tellus, non ultrices lacus tempus vel.",
     date: "May 2022 - Present",
     icon: "school",
+    image: "EASA.jpeg",
   },
   {
     id: 10,
@@ -106,6 +115,7 @@ const TimelineData = [
       "Highschool - Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec scelerisque sagittis tellus, non ultrices lacus tempus vel.",
     date: "May 2022 - Present",
     icon: "school",
+    image: "Ecommerce.png" ,
   },
   {
     id: 11,
@@ -116,6 +126,7 @@ const TimelineData = [
       "Highschool - Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec scelerisque sagittis tellus, non ultrices lacus tempus vel.",
     date: "November 2021 - May 2022",
     icon: "school",
+    image: "InvestmentClub.png" ,
   },
   {
     id: 12,
@@ -126,6 +137,7 @@ const TimelineData = [
       "Highschool - Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec scelerisque sagittis tellus, non ultrices lacus tempus vel.",
     date: "September 2021 - May 2022",
     icon: "school",
+    image: "JFSSCS.png" ,
   },
   {
     id: 13,
@@ -136,6 +148,7 @@ const TimelineData = [
       "Highschool - Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec scelerisque sagittis tellus, non ultrices lacus tempus vel.",
     date: "July 2021 - November 2022",
     icon: "school",
+    image: "Ecosource.png" ,
   },
   {
     id: 14,
@@ -146,6 +159,7 @@ const TimelineData = [
       "Highschool - Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec scelerisque sagittis tellus, non ultrices lacus tempus vel.",
     date: "August 2019 - September 2021",
     icon: "school",
+    image: "VolunteeringPeel.jpeg" ,
   },
 ];
   

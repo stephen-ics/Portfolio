@@ -2,10 +2,11 @@ import React from 'react'
 import { motion } from 'framer-motion'
 import './page-styles/About.css'
 
-import Art from '../pictures/Logo.png'
-import Math from '../pictures/Logo.png'
-import Piano from '../pictures/Logo.png'
-import Running from '../pictures/Logo.png'
+import Art from '../pictures/hobbies/Art.jpeg'
+import Math from '../pictures/hobbies/Math.jpeg'
+import Piano from '../pictures/hobbies/Piano.webp'
+import Running from '../pictures/hobbies/Running.webp'
+import Profile from '../pictures/me/Profile.png'
 
 import Cardflip from '../components/Cardflip'
 import Cardflip2 from '../components/Cardflip2'
@@ -213,7 +214,7 @@ const About = () => {
       >
       <div className='flex flex-col text-slate-900 mt-8'>
         <div className='flex flex-wrap'>
-          <motion.img src={Logo} variants={imageLeft} className='m-20 rounded-3xl object-cover border-green-500 border-solid'/>
+          <motion.img src={Profile} variants={imageLeft} className='m-20 rounded-3xl object-cover border-green-500 border-solid'/>
           <div className='flex flex-col justify-around'>
             <div>
               <motion.h1 variants={textUp} className='aboutheading1'>Hello! I'm Stephen</motion.h1>
