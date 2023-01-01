@@ -24,7 +24,7 @@
     border-radius: 1rem;
     color: rgb(40, 40, 43);
     transition: filter 300ms;
-    width: calc(12rem + 14vw);
+    width: calc(12rem + 16vw);
     justify-content: space-around;
     align-items: center;
     margin: 1.5rem;
@@ -76,4 +76,10 @@
     padding-bottom: calc(0.125rem + 0.25vw);
     padding-left: calc(0.25rem + 0.5vw);
     padding-right: calc(0.25rem + .5vw);
+}
+
+.project-image {
+    width: 100%;
+    height: 45vh;
+
 }

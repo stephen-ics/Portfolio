@@ -1,6 +1,6 @@
 .project-container {
-    width: calc(6rem + 70vw);
-    height: calc(6rem + 60vw);
+    width: calc(6rem + 50vw);
+    height: calc(6rem + 40vw);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -8,17 +8,17 @@
 
 .title {
     transition: transform 1s ease-in-out;
-    font-size: calc(1.5rem + 4.0625vw);
+    font-size: calc(1.5rem + 2.0625vw);
     line-height: 1em;
 }
 
 .subtitle {
-    font-size: calc(0.75rem + 2.0625vw);
+    font-size: calc(0.75rem + 1.0625vw);
     line-height: 1em;
 }
 
 .date  {
-    font-size: calc(0.5rem + 1.60625vw);
+    font-size: calc(0.75rem + 1.0625vw);
     line-height: 1em;
 }
 
