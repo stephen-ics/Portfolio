@@ -214,15 +214,15 @@ const About = () => {
       >
       <div className='flex flex-col text-slate-900 mt-8'>
         <div className='flex flex-wrap'>
-          <motion.img src={Profile} variants={imageLeft} className='m-20 rounded-3xl object-cover border-green-500 border-solid'/>
+          <motion.img src={Profile} variants={imageLeft} className='m-12 rounded-3xl object-cover border-green-500 border-solid'/>
           <div className='flex flex-col justify-around'>
-            <div>
-              <motion.h1 variants={textUp} className='aboutheading1'>Hello! I'm Stephen</motion.h1>
-              <motion.h2 variants={textUp2} className='aboutheading2'>I'm a high school student at John Fraser Secondary School and an aspiring full-stack developer</motion.h2>
-              <motion.h2 variants={textUp2} className='aboutheading2'>I have experience with front end web development including blah blah blah</motion.h2>
-            </div>
-            <motion.div variants={imageUp}>
-              <Progress />
+              <div className='mt-10 text-wrap'>
+                <motion.h1 variants={textUp} className='aboutheading1'>Hello! I'm Stephen</motion.h1>
+                <motion.h2 variants={textUp2} className='aboutheading2'>I'm a high school student at John Fraser Secondary School and an aspiring full-stack developer</motion.h2>
+                <motion.h2 variants={textUp2} className='aboutheading3'>I code to improve daily life: from web-dev with React, to back-end dev using Python, all the way to AI/ML with Tensorflow!</motion.h2>
+              </div>
+            <motion.div variants={imageUp} className='mt-6'>
+              <Progress/>
             </motion.div>
           </div>      
         </div>

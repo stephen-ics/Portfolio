@@ -5,10 +5,15 @@
 
 .aboutheading1 {
     font-size: calc(1rem + 1vw);
-    font-weight: 600;
+    font-weight: bolder;
 }
 
 .aboutheading2 {
     font-size: calc(0.75rem + 0.8vw);
+
+}
+
+.aboutheading3 {
+    font-size: calc(0.4rem + 0.8vw);
 }
 
