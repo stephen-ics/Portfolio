@@ -8,7 +8,7 @@ const TimelineData = [
     association: "Inspirit AI",
     location: "Mississauga, Ontario",
     description:
-      "Converting data to a graphical interface, through the use of HTML, CSS, and JavaScript, so that users can view and interact with that data.",
+      "",
     buttonText: "Certificate of Completion",
     date: "August 2022 - Present",
     icon: "work",
@@ -20,7 +20,7 @@ const TimelineData = [
     association: "Toronto Model United Nations (TMUN)",
     location: "Mississauga, Ontario",
     description:
-      "Working hand-in-hand with front-end developers by providing the outward facing web application elements server-side logic. Creating the logic to make the web app function properly, and accomplishing this through the use of server-side scripting languages.",
+      "",
     buttonText: "Website",
     date: "July 2022 - Present",
     icon: "work",
@@ -32,7 +32,7 @@ const TimelineData = [
     association: "TurtleHacks",
     location: "Mississauga, Ontario",
     description:
-      "Assessing the quality of specifications and technical design documents in order to ensure timely, relevant and meaningful feedback.",
+      "",
     buttonText: "Website",
     date: "June 2022 - Present",
     icon: "work",
@@ -44,7 +44,7 @@ const TimelineData = [
     association: "",
     location: "Mississauga, Ontario",
     description:
-      "Online Course in Magical Beasts and Wonders of the World - Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec scelerisque sagittis tellus, non ultrices lacus tempus vel.",
+      "",
     buttonText: "Website",
     date: "September 2011",
     icon: "school",
@@ -56,7 +56,7 @@ const TimelineData = [
     association: "John Fraser Secondary School",
     location: "Mississauga, Ontario",
     description:
-      "College - Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec scelerisque sagittis tellus, non ultrices lacus tempus vel.",
+      "",
     buttonText: "Website",
     date: "May 2022 - Present",
     icon: "school",
@@ -68,7 +68,7 @@ const TimelineData = [
     association: "JFSS Computer Science Club",
     location: "Mississauga, Ontario",
     description:
-      "Highschool - Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec scelerisque sagittis tellus, non ultrices lacus tempus vel.",
+      "",
     date: "May 2022 - Present",
     icon: "school",
     image: "JFSSCS.png" ,
@@ -79,7 +79,7 @@ const TimelineData = [
     association: "JFSS Math Club",
     location: "Misssissauga, Ontario",
     description:
-      "Highschool - Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec scelerisque sagittis tellus, non ultrices lacus tempus vel.",
+      "",
     date: "May 2022 - Present",
     icon: "school",
     image: "MathClub.png" ,
@@ -90,7 +90,7 @@ const TimelineData = [
     association: "JFSS Investment Club",
     location: "Mississauga, Ontario",
     description:
-      "Highschool - Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec scelerisque sagittis tellus, non ultrices lacus tempus vel.",
+      "",
     date: "May 2022 - Present",
     icon: "school",
     image: "InvestmentClub.png" ,
@@ -101,7 +101,7 @@ const TimelineData = [
     association: "East Asian Student Association",
     location: "Mississauga, Ontario",
     description:
-      "Highschool - Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec scelerisque sagittis tellus, non ultrices lacus tempus vel.",
+      "",
     date: "May 2022 - Present",
     icon: "school",
     image: "EASA.jpeg",
@@ -112,7 +112,7 @@ const TimelineData = [
     association: "JFSS E-Commerce Club",
     location: "Mississauga, Ontario",
     description:
-      "Highschool - Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec scelerisque sagittis tellus, non ultrices lacus tempus vel.",
+      "",
     date: "May 2022 - Present",
     icon: "school",
     image: "Ecommerce.png" ,
@@ -123,7 +123,7 @@ const TimelineData = [
     association: "JFSS Investment Club",
     location: "Mississauga, Ontario",
     description:
-      "Highschool - Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec scelerisque sagittis tellus, non ultrices lacus tempus vel.",
+      "",
     date: "November 2021 - May 2022",
     icon: "school",
     image: "InvestmentClub.png" ,
@@ -134,7 +134,7 @@ const TimelineData = [
     association: "JFSS Computer Science Club",
     location: "Mississauga, Ontario",
     description:
-      "Highschool - Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec scelerisque sagittis tellus, non ultrices lacus tempus vel.",
+      "",
     date: "September 2021 - May 2022",
     icon: "school",
     image: "JFSSCS.png" ,
@@ -145,7 +145,7 @@ const TimelineData = [
     association: "Ecosource Green",
     location: "Mississauga, Ontario",
     description:
-      "Highschool - Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec scelerisque sagittis tellus, non ultrices lacus tempus vel.",
+      "",
     date: "July 2021 - November 2022",
     icon: "school",
     image: "Ecosource.png" ,
@@ -156,7 +156,7 @@ const TimelineData = [
     association: "Volunteering Peel",
     location: "Mississauga, Ontario",
     description:
-      "Highschool - Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec scelerisque sagittis tellus, non ultrices lacus tempus vel.",
+      "",
     date: "August 2019 - September 2021",
     icon: "school",
     image: "VolunteeringPeel.jpeg" ,
