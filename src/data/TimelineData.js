@@ -9,8 +9,9 @@ const TimelineData = [
     location: "Mississauga, Ontario",
     description:
       "",
-    buttonText: "Certificate of Completion",
-    date: "August 2022 - Present",
+    buttonText: "Understanding Siri Project",
+    buttonLink: "https://docs.google.com/presentation/d/1L8kr6s6bfznZn8_KiZQn8Xi7ris9Bd324nXH0YK9mDc",
+    date: "August 2022 - August 2022",
     icon: "work",
     image: "InspiritAI.png" ,
   },
@@ -22,7 +23,8 @@ const TimelineData = [
     description:
       "",
     buttonText: "Website",
-    date: "July 2022 - Present",
+    buttonLink: "https://www.tmun.ca/",
+    date: "July 2022 - September 2022",
     icon: "work",
     image: "TMUN.png" ,
   },
@@ -34,6 +36,7 @@ const TimelineData = [
     description:
       "",
     buttonText: "Website",
+    buttonLink: "https://www.turtlehacks.com/",
     date: "June 2022 - Present",
     icon: "work",
     image: "TurtleHacks.png" ,
@@ -46,8 +49,9 @@ const TimelineData = [
     description:
       "",
     buttonText: "Website",
-    date: "September 2011",
-    icon: "school",
+    buttonLink: "https://www.ignitionhacks.org/",
+    date: "June 2022 - August 2022",
+    icon: "work",
     image: "IgnitionHacks.png" ,
   },
   {
@@ -58,6 +62,7 @@ const TimelineData = [
     description:
       "",
     buttonText: "Website",
+    buttonLink: "https://johnfrasersac.com/",
     date: "May 2022 - Present",
     icon: "school",
     image: "JohnFraserSAC.png" ,
@@ -69,6 +74,8 @@ const TimelineData = [
     location: "Mississauga, Ontario",
     description:
       "",
+    buttonText: "Website",
+    buttonLink: "https://frasercodes.vercel.app/",
     date: "May 2022 - Present",
     icon: "school",
     image: "JFSSCS.png" ,
@@ -80,6 +87,8 @@ const TimelineData = [
     location: "Misssissauga, Ontario",
     description:
       "",
+    buttonText: "Instagram",
+    buttonLink: "https://www.instagram.com/jfss.mathclub/",
     date: "May 2022 - Present",
     icon: "school",
     image: "MathClub.png" ,
@@ -91,6 +100,8 @@ const TimelineData = [
     location: "Mississauga, Ontario",
     description:
       "",
+    buttonText: "Instagram",
+    buttonLink: "https://www.instagram.com/jfssinvestmentclub/",
     date: "May 2022 - Present",
     icon: "school",
     image: "InvestmentClub.png" ,
@@ -102,6 +113,8 @@ const TimelineData = [
     location: "Mississauga, Ontario",
     description:
       "",
+    buttonText: "Instagram",
+    buttonLink: "https://www.instagram.com/fraser_easa/",
     date: "May 2022 - Present",
     icon: "school",
     image: "EASA.jpeg",
@@ -113,6 +126,8 @@ const TimelineData = [
     location: "Mississauga, Ontario",
     description:
       "",
+    buttonText: "Instagram",
+    buttonLink: "https://www.instagram.com/jfssecommerce/",
     date: "May 2022 - Present",
     icon: "school",
     image: "Ecommerce.png" ,

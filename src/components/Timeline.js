@@ -47,7 +47,8 @@ const Timeline = () => {
                   className={`timeline-button ${
                     isWorkIcon ? "workButton" : "schoolButton"
                   }`}
-                  href="/"
+                  href={element.buttonLink}
+                  target="_blank"
                 >
                   {element.buttonText}
                 </a>

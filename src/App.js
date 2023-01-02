@@ -15,7 +15,7 @@ function App() {
   return (
     <div className="App">
       <Helmet>
-        <title>Stephen Ni | Full-Stack Developer</title>
+        <title>Stephen Ni | Software Developer</title>
         <meta name="description" content="Hello! I'm Stephen! I'm a high school student at John Fraser Secondary School and an aspiring full-stack developer."></meta>
       </Helmet>
       <BrowserRouter>
