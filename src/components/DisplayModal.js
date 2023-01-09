@@ -22,7 +22,7 @@ const DisplayModal = ({title, subtitle, description, image, devpost, github, sec
             subtitle={subtitle}
             image={image}
         >
-            Launch Model
+            
         </ProjectSection>
         
         <AnimatePresence

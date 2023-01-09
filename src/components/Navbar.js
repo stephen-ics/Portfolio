@@ -26,6 +26,12 @@ const links = [
         link: "/project",
         id: "project",
         priority: false
+    },
+    {
+        name: "ICS4U0",
+        link: "/ICS4U0",
+        id: "ICS4U0",
+        priority: false
     }
 ]
 

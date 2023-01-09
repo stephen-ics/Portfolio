@@ -17,3 +17,8 @@
     font-size: calc(0.5rem + 0.7vw);
 }
 
+.aboutimage {
+    width: calc(10rem + 10vw);
+    margin: calc(0.5rem + 1vw);
+}
+

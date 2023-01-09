@@ -214,7 +214,7 @@ const About = () => {
       >
       <div className='flex flex-col text-slate-900 mt-8'>
         <div className='flex flex-wrap'>
-          <motion.img src={Profile} variants={imageLeft} className='m-12 rounded-3xl object-cover border-green-500 border-solid'/>
+          <motion.img src={Profile} variants={imageLeft} className='rounded-3xl object-cover border-green-500 border-solid aboutimage'/>
           <div className='flex flex-col justify-around'>
               <div className='mt-10 text-wrap'>
                 <motion.h1 variants={textUp} className='aboutheading1'>Hello! I'm Stephen</motion.h1>
