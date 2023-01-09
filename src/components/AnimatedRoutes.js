@@ -20,6 +20,8 @@ const AnimatedRoutes = () => {
         <Route path="/experience" exact element={<Experience />} />
         <Route path="/project" exact element={<Project />} />
         <Route path='/ICS4U0' exact element={<ICS4U0 />} />
+        <Route path='/ICS4U0/project-management' exact element={<SearchProfile />}></Route>
+        <Route path='/search/data-structures-and-algorithnms' exact element={<SearchProfile />}></Route>
       </Routes>
     </AnimatePresence>
   )

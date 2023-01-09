@@ -31,8 +31,8 @@ const ICSSection = ({ whileHover, whileTap, className, onClick, title, subtitle,
             onClick={onClick}
         > 
           <div className='flex flex-col items-center w-full h-full'>
-            <img src={image} className='project-image object-cover rounded-t-2xl border-none'></img>
-            <h1 className='mt-4 text-4xl'>{title}</h1>
+            <img src={image} className='ics-image object-cover rounded-t-2xl border-none'></img>
+            <h1 className='mt-10 text-4xl'>{title}</h1>
             <h2 className='text-2xl'>{subtitle}</h2>
           </div>
         </motion.button>

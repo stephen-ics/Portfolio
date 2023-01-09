@@ -35,15 +35,55 @@ const ICS4U0 = () => {
         animate='visible'
         exit='exit'
       >
+         <h1 className='text-5xl text-center mt-10'>ICS4U0</h1>
+
+        <motion.div className='flex flex-wrap justify-evenly'> 
         <ICSSection
-          whileHover={{ scale:1.05 }}
-          whileTap={{ scale:0.95 }}
-          className='project-section'
-          title="sdsd"
-          subtitle="sdsd"
-          image={Logo}
-        >
+            whileHover={{ scale:1.05 }}
+            whileTap={{ scale:0.95 }}
+            className='ics-section'
+            title="Project Management"
+            subtitle=""
+            image={Logo}
+          >
         </ICSSection>
+        <ICSSection
+            whileHover={{ scale:1.05 }}
+            whileTap={{ scale:0.95 }}
+            className='ics-section'
+            title="Hop Queen"
+            subtitle=""
+            image={Logo}
+          >
+        </ICSSection>
+        <ICSSection
+            whileHover={{ scale:1.05 }}
+            whileTap={{ scale:0.95 }}
+            className='ics-section'
+            title="Data Structures"
+            subtitle=""
+            image={Logo}
+          >
+        </ICSSection>
+        <ICSSection
+            whileHover={{ scale:1.05 }}
+            whileTap={{ scale:0.95 }}
+            className='ics-section'
+            title="Algorithms"
+            subtitle=""
+            image={Logo}
+          >
+        </ICSSection>
+        <ICSSection
+            whileHover={{ scale:1.05 }}
+            whileTap={{ scale:0.95 }}
+            className='ics-section'
+            title="Recursion"
+            subtitle=""
+            image={Logo}
+          >
+        </ICSSection>           
+        </motion.div>
       </motion.div>
       )
 }
