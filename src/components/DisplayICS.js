@@ -21,6 +21,9 @@ const DisplayICS = ({className, title, subtitle, description, image, devpost, gi
             title={title}
             subtitle={subtitle}
             image={image}
+            devpost={devpost}
+            youtube={youtube}
+            github={github}
         >
         </ICSSection> 
         <AnimatePresence

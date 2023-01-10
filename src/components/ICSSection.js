@@ -44,7 +44,7 @@ const ICSSection = ({ whileHover, whileTap, className, onClick, title, subtitle,
             <h2 className='text-2xl'>{subtitle}</h2>
             <div className='flex justify-center mt-4'>
                 { github &&
-                    <a href='https://google.com' target='_blank' className='mr-8'>
+                    <a href={github} target='_blank' className='mr-8'>
                     <div className='flex justify-between items-center bg-slate-900 rounded-xl project-section-icons'>
                     <p className='text-lg mr-4 text-white'>Github</p>
                     <a href='https://google.com' target='_blank'>
@@ -54,7 +54,7 @@ const ICSSection = ({ whileHover, whileTap, className, onClick, title, subtitle,
                 </a>
                 }
                 {  youtube && 
-                    <a href='https://google.com' target='_blank' className='ml-8'>
+                    <a href={youtube} target='_blank' className='ml-8'>
                     <div className='flex justify-between items-center bg-red-600 rounded-xl project-section-icons'>
                     <p className='text-lg mr-4 text-white'>Youtube</p>
                     <FaYoutube size={40} color='rgb(140, 0, 0)' />
