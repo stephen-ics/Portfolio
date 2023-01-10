@@ -3,6 +3,7 @@ import { motion } from 'framer-motion'
 
 import ICSSection from '../components/ICSSection';
 import Logo from '../pictures/Logo.png'
+import { Link } from 'react-router-dom';
 
 const ICS4U0 = () => {
     const container = {
@@ -38,51 +39,29 @@ const ICS4U0 = () => {
          <h1 className='text-5xl text-center mt-10'>ICS4U0</h1>
 
         <motion.div className='flex flex-wrap justify-evenly'> 
-        <ICSSection
-            whileHover={{ scale:1.05 }}
-            whileTap={{ scale:0.95 }}
-            className='ics-section'
-            title="Project Management"
-            subtitle=""
-            image={Logo}
-          >
-        </ICSSection>
-        <ICSSection
-            whileHover={{ scale:1.05 }}
-            whileTap={{ scale:0.95 }}
-            className='ics-section'
-            title="Hop Queen"
-            subtitle=""
-            image={Logo}
-          >
-        </ICSSection>
-        <ICSSection
-            whileHover={{ scale:1.05 }}
-            whileTap={{ scale:0.95 }}
-            className='ics-section'
-            title="Data Structures"
-            subtitle=""
-            image={Logo}
-          >
-        </ICSSection>
-        <ICSSection
-            whileHover={{ scale:1.05 }}
-            whileTap={{ scale:0.95 }}
-            className='ics-section'
-            title="Algorithms"
-            subtitle=""
-            image={Logo}
-          >
-        </ICSSection>
-        <ICSSection
-            whileHover={{ scale:1.05 }}
-            whileTap={{ scale:0.95 }}
-            className='ics-section'
-            title="Recursion"
-            subtitle=""
-            image={Logo}
-          >
-        </ICSSection>           
+        <Link to="project-management">
+          <ICSSection
+              whileHover={{ scale:1.05 }}
+              whileTap={{ scale:0.95 }}
+              className='ics-section'
+              title="Project Management"
+              subtitle=""
+              image={Logo}
+            >
+          </ICSSection>
+        </Link>
+        <Link to="data-structures-and-algorithms">
+          <ICSSection
+              whileHover={{ scale:1.05 }}
+              whileTap={{ scale:0.95 }}
+              className='ics-section'
+              title="Data Structures/Algorithms"
+              subtitle=""
+              image={Logo}
+            >
+          </ICSSection>
+        </Link>
+                
         </motion.div>
       </motion.div>
       )
