@@ -36,7 +36,7 @@ const ICS4U0 = () => {
         animate='visible'
         exit='exit'
       >
-         <h1 className='text-5xl text-center mt-10'>ICS4U0</h1>
+         <h1 className='text-5xl text-center mt-10'>ICS4U0 - Currently under construction!</h1>
 
         <motion.div className='flex flex-wrap justify-evenly'> 
         <Link to="project-management">

@@ -46,7 +46,7 @@ const ProjectSection = ({ whileHover, whileTap, className, onClick, title, subti
        <a href='https://google.com' target='_blank'>
           <div className='flex justify-between items-center bg-slate-900 rounded-xl project-section-icons'>
             <p className='text-lg mr-4 text-white'>Github</p>
-            <a href='https://google.com' target='_blank'><FaGithub size={40}/></a>
+            <a href='https://google.com' target='_blank'><FaGithub size={40} color="rgb(70, 70, 70)"/></a>
           </div> 
       </a>
       </div>

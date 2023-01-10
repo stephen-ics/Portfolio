@@ -1,10 +1,10 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import { FaGithub } from 'react-icons/fa';
+import { FaGithub, FaYoutube } from 'react-icons/fa';
 import { SiDevpost } from 'react-icons/si';
 import './component-styles/ICSSection.css';
 
-const ICSSection = ({ whileHover, whileTap, className, onClick, title, subtitle, image, devpost, github }) => {
+const ICSSection = ({ whileHover, whileTap, className, onClick, title, subtitle, image, devpost, github, youtube }) => {
     const textUp = {
         hidden: {
             y: '15vh',
@@ -34,9 +34,30 @@ const ICSSection = ({ whileHover, whileTap, className, onClick, title, subtitle,
             <img src={image} className='ics-image object-cover rounded-t-2xl border-none'></img>
             <h1 className='mt-10 text-4xl'>{title}</h1>
             <h2 className='text-2xl'>{subtitle}</h2>
+            <div className='flex justify-center mt-4'>
+                { github &&
+                    <a href='https://google.com' target='_blank' className='mr-8'>
+                    <div className='flex justify-between items-center bg-slate-900 rounded-xl project-section-icons'>
+                    <p className='text-lg mr-4 text-white'>Github</p>
+                    <a href='https://google.com' target='_blank'>
+                    <FaGithub size={40} color="rgb(70, 70, 70)"/>
+                    </a>
+                    </div> 
+                </a>
+                }
+                {  youtube && 
+                    <a href='https://google.com' target='_blank' className='ml-8'>
+                    <div className='flex justify-between items-center bg-red-600 rounded-xl project-section-icons'>
+                    <p className='text-lg mr-4 text-white'>Youtube</p>
+                    <FaYoutube size={40} color='rgb(140, 0, 0)' />
+                    </div>
+                    </a>
+                }
+            </div>
           </div>
         </motion.button>
       )
 }
 
 export default ICSSection
+

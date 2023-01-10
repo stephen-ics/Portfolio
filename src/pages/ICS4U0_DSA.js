@@ -46,6 +46,7 @@ const ICS4U0_DSA = () => {
           title="Data Structures"
           subtitle=""
           image={Logo}
+          github="https://google.com"
         >
       </ICSSection>
       <ICSSection
@@ -55,6 +56,7 @@ const ICS4U0_DSA = () => {
           title="Algorithms"
           subtitle=""
           image={Logo}
+          github="https://google.com"
         >
       </ICSSection>
       <ICSSection
@@ -64,6 +66,7 @@ const ICS4U0_DSA = () => {
           title="Recursion"
           subtitle=""
           image={Logo}
+          github="https://google.com"
         >
       </ICSSection>           
     </motion.div>

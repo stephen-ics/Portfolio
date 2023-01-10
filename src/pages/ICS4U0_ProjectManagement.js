@@ -46,6 +46,8 @@ const ICS4U0_ProjectManagement = () => {
           title="Hop Queen"
           subtitle=""
           image={Logo}
+          github="https://google.com"
+          youtube="https://google.com"
         >
       </ICSSection>       
     </motion.div>
