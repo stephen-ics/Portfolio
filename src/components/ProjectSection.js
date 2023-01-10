@@ -1,8 +1,9 @@
 import React from 'react'
-import { motion } from 'framer-motion'
+import { motion, AnimatePresence } from 'framer-motion'
 import { FaGithub } from 'react-icons/fa'
 import { SiDevpost } from 'react-icons/si'
 import './component-styles/Modal.css'
+
 
 const ProjectSection = ({ whileHover, whileTap, className, onClick, title, subtitle, image, devpost, github }) => {
   const textUp = {
@@ -23,6 +24,7 @@ const ProjectSection = ({ whileHover, whileTap, className, onClick, title, subti
         opacity: 0,
     },
   };
+
   return (
     <motion.button
         whileHover={whileHover}
@@ -51,6 +53,7 @@ const ProjectSection = ({ whileHover, whileTap, className, onClick, title, subti
       </a>
       </div>
     </motion.button>
+    
   )
 }
 

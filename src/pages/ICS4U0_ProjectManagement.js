@@ -2,6 +2,7 @@ import React from 'react'
 import { motion } from 'framer-motion'
 
 import ICSSection from '../components/ICSSection';
+import DisplayICS from '../components/DisplayICS';
 import Logo from '../pictures/Logo.png'
 
 
@@ -40,6 +41,19 @@ const ICS4U0_ProjectManagement = () => {
 
     <motion.div className='flex flex-wrap justify-evenly'> 
       <ICSSection
+        whileHover={{ scale:1.05 }}
+        whileTap={{ scale:0.95 }}
+        className='ics-section'
+        title="Hop Queen"
+        subtitle=""
+        image={Logo}
+        github="https://google.com"
+        youtube="https://google.com"
+      >
+
+        
+      </ICSSection>
+      <DisplayICS
           whileHover={{ scale:1.05 }}
           whileTap={{ scale:0.95 }}
           className='ics-section'
@@ -47,9 +61,8 @@ const ICS4U0_ProjectManagement = () => {
           subtitle=""
           image={Logo}
           github="https://google.com"
-          youtube="https://google.com"
-        >
-      </ICSSection>       
+          youtube="https://google.com">
+      </DisplayICS>       
     </motion.div>
   </motion.div>
   )

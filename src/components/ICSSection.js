@@ -1,10 +1,13 @@
 import React from 'react';
-import { motion } from 'framer-motion';
+import { motion, AnimatePresence } from 'framer-motion';
 import { FaGithub, FaYoutube } from 'react-icons/fa';
 import { SiDevpost } from 'react-icons/si';
+import Modal from './Modal.js';
+import { useState } from 'react'
 import './component-styles/ICSSection.css';
 
-const ICSSection = ({ whileHover, whileTap, className, onClick, title, subtitle, image, devpost, github, youtube }) => {
+
+const ICSSection = ({ whileHover, whileTap, className, onClick, title, subtitle, image, devpost, github, youtube, description, techStack }) => {
     const textUp = {
         hidden: {
             y: '15vh',
@@ -23,6 +26,11 @@ const ICSSection = ({ whileHover, whileTap, className, onClick, title, subtitle,
             opacity: 0,
         },
       };
+
+      const [modalOpen, setModalOpen] = useState(false);
+      const close = () => setModalOpen(false);
+      const open = () => setModalOpen(true);
+
       return (
         <motion.button
             whileHover={whileHover}
