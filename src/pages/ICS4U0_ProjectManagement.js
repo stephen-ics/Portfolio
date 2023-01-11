@@ -1,7 +1,9 @@
 import React from 'react'
 import './page-styles/Project.css'
-import DisplayModal from '../components/DisplayModal'
+
+import ICSSection from '../components/ICSSection';
 import { motion } from 'framer-motion'
+import { Link } from 'react-router-dom'
 
 import DisplayICS from '../components/DisplayICS';
 import Logo from '../pictures/Logo.png'
@@ -40,16 +42,18 @@ const ICS4U0_ProjectManagement = () => {
       <h1 className='text-5xl text-center mt-10'>Projects</h1>
 
       <motion.div className='flex flex-wrap justify-evenly'>
-        <DisplayICS
-          whileHover={{ scale:1.05 }}
-          whileTap={{ scale:0.95 }}
-          className='ics-section'
-          title="Hop Queen"
-          subtitle=""
-          image={Logo}
-          github="https://github.com/stephen-ics/Hop-Queen"
-          youtube="https://www.youtube.com/watch?v=-orOY6NSltM">
-        </DisplayICS>  
+        <Link to="hop-queen">
+          <ICSSection
+            whileHover={{ scale:1.05 }}
+            whileTap={{ scale:0.95 }}
+            className='ics-section'
+            title="Hop Queen"
+            subtitle=""
+            image={Logo}
+            github="https://github.com/stephen-ics/Hop-Queen"
+            youtube="https://www.youtube.com/watch?v=-orOY6NSltM">
+          </ICSSection> 
+        </Link> 
       </motion.div>
 
     </motion.div>

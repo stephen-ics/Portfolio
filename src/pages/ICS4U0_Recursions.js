@@ -52,7 +52,7 @@ const ICS4U0_Recursions = () => {
         whileHover={{ scale:1.05 }}
         whileTap={{ scale:0.95 }}
         className='ics-section'
-        title="Recursion"
+        title="Memoization - Code"
         subtitle=""
         image={Logo}
         github="https://github.com/stephen-ics/ICS4U0-DS-A/tree/main/Recursion"

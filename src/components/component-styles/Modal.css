@@ -10,6 +10,18 @@
   overflow-y: auto;
 }
 
+.modal-ics {
+  width: calc(2rem + 95vw);
+  height: calc(2rem + 80vh);
+  margin: auto;
+  padding: 0;
+  padding-right: 2rem;
+  border-radius: 12px;
+  display: flex;
+  background: var(--gradient);
+  overflow-y: auto;
+}
+
 .modal-button {
   padding: 0 2rem;
   height: 2.5rem;

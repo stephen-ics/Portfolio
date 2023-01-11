@@ -38,7 +38,7 @@ const ICS4U0_DSA = () => {
       <h1 className='text-5xl text-center mt-10'></h1>
 
       <motion.div className='flex flex-wrap justify-evenly'>
-      <Link to="/ICS4U0/data-structures-and-algorithms/data-structures">
+      <Link to="data-structures">
         <ICSSection
           whileHover={{ scale:1.05 }}
           whileTap={{ scale:0.95 }}
@@ -50,8 +50,8 @@ const ICS4U0_DSA = () => {
         >
         </ICSSection>    
       </Link>
-      <Link to="/ICS4U0/data-structures-and-algorithms/algorithms">
-        <DisplayICS
+      <Link to="algorithms">
+        <ICSSection
           whileHover={{ scale:1.05 }}
           whileTap={{ scale:0.95 }}
           className='ics-section'
@@ -60,10 +60,10 @@ const ICS4U0_DSA = () => {
           image={Logo}
           github="https://github.com/stephen-ics/ICS4U0-DS-A/tree/main/Algorithms"
         >
-        </DisplayICS>    
+        </ICSSection>    
       </Link>
-      <Link to="/ICS4U0/data-structures-and-algorithms/recursions">
-        <DisplayICS
+      <Link to="recursions">
+        <ICSSection
           whileHover={{ scale:1.05 }}
           whileTap={{ scale:0.95 }}
           className='ics-section'
@@ -72,7 +72,7 @@ const ICS4U0_DSA = () => {
           image={Logo}
           github="https://github.com/stephen-ics/ICS4U0-DS-A/tree/main/Recursion"
         >
-        </DisplayICS>  
+        </ICSSection>  
       </Link>
       </motion.div>
 

@@ -2,6 +2,7 @@ import React from 'react';
 import { useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import Modal from './Modal.js';
+import ModalICS from './ModalICS.js';
 import ICSSection from './ICSSection';
 import Logo from '../pictures/Logo.png'
 import './component-styles/Modal.css';
@@ -31,7 +32,7 @@ const DisplayICS = ({className, title, subtitle, description, image, devpost, gi
             exitBeforeEnter={true}
             onExitComplete={() => null}
         >
-            {modalOpen && <Modal modalOpen={modalOpen} handleClose={close} title={title} subtitle={subtitle} description={description} image={image} devpost={devpost} github={github} techStack={techStack}/>}
+            {modalOpen && <ModalICS modalOpen={modalOpen} handleClose={close} title={title} subtitle={subtitle} description={description} image={image} devpost={devpost} github={github} techStack={techStack}/>}
         </AnimatePresence>
     </motion.div>
 

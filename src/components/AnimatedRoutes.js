@@ -11,6 +11,7 @@ import ICS4U0_DS from '../pages/ICS4U0_DS'
 import ICS4U0_Algorithms from '../pages/ICS4U0_Algorithms'
 import ICS4U0_Recursions from '../pages/ICS4U0_Recursions'
 import ICS4U0_ProjectManagement from '../pages/ICS4U0_ProjectManagement'
+import ICS4U0_ProjectManagement_HopQueen from '../pages/ICS4U0_ProjectManagement_HopQueen'
 
 import { AnimatePresence } from 'framer-motion'
 
@@ -30,6 +31,7 @@ const AnimatedRoutes = () => {
         <Route path='/ICS4U0/data-structures-and-algorithms/algorithms' exact element={<ICS4U0_Algorithms />}></Route>
         <Route path='/ICS4U0/data-structures-and-algorithms/recursions' exact element={<ICS4U0_Recursions />}></Route>
         <Route path='/ICS4U0/project-management' exact element={<ICS4U0_ProjectManagement />}></Route>
+        <Route path='/ICS4U0/project-management/hop-queen' exact element={<ICS4U0_ProjectManagement_HopQueen />}></Route>
       </Routes>
     </AnimatePresence>
   )

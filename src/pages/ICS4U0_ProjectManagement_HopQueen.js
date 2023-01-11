@@ -52,36 +52,16 @@ const ICS4U0_ProjectManagent_HopQueen = () => {
         whileHover={{ scale:1.05 }}
         whileTap={{ scale:0.95 }}
         className='ics-section'
-        title="Sorting Algorithms"
+        title="Download"
         subtitle=""
         image={Logo}
         github="https://github.com/stephen-ics/ICS4U0-DS-A/tree/main/Recursion"
       >
       </DisplayICS> 
-      <DisplayICS
-        whileHover={{ scale:1.05 }}
-        whileTap={{ scale:0.95 }}
-        className='ics-section'
-        title="Search Algorithms"
-        subtitle=""
-        image={Logo}
-        github="https://github.com/stephen-ics/ICS4U0-DS-A/tree/main/Recursion"
-      >
-      </DisplayICS> 
-      <DisplayICS
-        whileHover={{ scale:1.05 }}
-        whileTap={{ scale:0.95 }}
-        className='ics-section'
-        title="Results"
-        subtitle=""
-        image={Logo}
-        github="https://github.com/stephen-ics/ICS4U0-DS-A/tree/main/Recursion"
-      >
-      </DisplayICS>  
       </motion.div>
 
     </motion.div>
   )
 }
 
-export default ICS4U0_ProjectManagement_HopQueen
+export default ICS4U0_ProjectManagent_HopQueen
