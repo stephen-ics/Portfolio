@@ -9,6 +9,7 @@ import ICS4U0 from '../pages/ICS4U0'
 import ICS4U0_DSA from '../pages/ICS4U0_DSA'
 import ICS4U0_DS from '../pages/ICS4U0_DS'
 import ICS4U0_Algorithms from '../pages/ICS4U0_Algorithms'
+import ICS4U0_Recursions from '../pages/ICS4U0_Recursions'
 import ICS4U0_ProjectManagement from '../pages/ICS4U0_ProjectManagement'
 
 import { AnimatePresence } from 'framer-motion'
@@ -27,6 +28,7 @@ const AnimatedRoutes = () => {
         <Route path='/ICS4U0/data-structures-and-algorithms' exact element={<ICS4U0_DSA />}></Route>
         <Route path='/ICS4U0/data-structures-and-algorithms/data-structures' exact element={<ICS4U0_DS />}></Route>
         <Route path='/ICS4U0/data-structures-and-algorithms/algorithms' exact element={<ICS4U0_Algorithms />}></Route>
+        <Route path='/ICS4U0/data-structures-and-algorithms/recursions' exact element={<ICS4U0_Recursions />}></Route>
         <Route path='/ICS4U0/project-management' exact element={<ICS4U0_ProjectManagement />}></Route>
       </Routes>
     </AnimatePresence>

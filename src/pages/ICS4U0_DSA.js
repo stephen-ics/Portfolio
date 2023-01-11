@@ -62,16 +62,18 @@ const ICS4U0_DSA = () => {
         >
         </DisplayICS>    
       </Link>
-      <DisplayICS
-        whileHover={{ scale:1.05 }}
-        whileTap={{ scale:0.95 }}
-        className='ics-section'
-        title="Recursion"
-        subtitle=""
-        image={Logo}
-        github="https://github.com/stephen-ics/ICS4U0-DS-A/tree/main/Recursion"
-      >
-      </DisplayICS>  
+      <Link to="/ICS4U0/data-structures-and-algorithms/recursions">
+        <DisplayICS
+          whileHover={{ scale:1.05 }}
+          whileTap={{ scale:0.95 }}
+          className='ics-section'
+          title="Recursion"
+          subtitle=""
+          image={Logo}
+          github="https://github.com/stephen-ics/ICS4U0-DS-A/tree/main/Recursion"
+        >
+        </DisplayICS>  
+      </Link>
       </motion.div>
 
     </motion.div>
