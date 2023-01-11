@@ -50,16 +50,18 @@ const ICS4U0_DSA = () => {
         >
         </ICSSection>    
       </Link>
-      <DisplayICS
-        whileHover={{ scale:1.05 }}
-        whileTap={{ scale:0.95 }}
-        className='ics-section'
-        title="Algorithms"
-        subtitle=""
-        image={Logo}
-        github="https://github.com/stephen-ics/ICS4U0-DS-A/tree/main/Algorithms"
-      >
-      </DisplayICS>    
+      <Link to="/ICS4U0/data-structures-and-algorithms/algorithms">
+        <DisplayICS
+          whileHover={{ scale:1.05 }}
+          whileTap={{ scale:0.95 }}
+          className='ics-section'
+          title="Algorithms"
+          subtitle=""
+          image={Logo}
+          github="https://github.com/stephen-ics/ICS4U0-DS-A/tree/main/Algorithms"
+        >
+        </DisplayICS>    
+      </Link>
       <DisplayICS
         whileHover={{ scale:1.05 }}
         whileTap={{ scale:0.95 }}

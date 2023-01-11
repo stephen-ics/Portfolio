@@ -37,19 +37,7 @@ const ICS4U0_Algorithms = () => {
     >
       <h1 className='text-5xl text-center mt-10'></h1>
 
-      <motion.div className='flex flex-wrap justify-evenly'>
-
-        <DisplayICS
-          whileHover={{ scale:1.05 }}
-          whileTap={{ scale:0.95 }}
-          className='ics-section'
-          title="Classes"
-          subtitle=""
-          image={Logo}
-          github="https://github.com/stephen-ics/ICS4U0-DS-A/tree/main/Data%20Structures"
-        >
-        </DisplayICS>    
-      
+      <motion.div className='flex flex-wrap justify-evenly'> 
       <DisplayICS
         whileHover={{ scale:1.05 }}
         whileTap={{ scale:0.95 }}
@@ -64,7 +52,7 @@ const ICS4U0_Algorithms = () => {
         whileHover={{ scale:1.05 }}
         whileTap={{ scale:0.95 }}
         className='ics-section'
-        title="File Reading and Writing"
+        title="Sorting Algorithms"
         subtitle=""
         image={Logo}
         github="https://github.com/stephen-ics/ICS4U0-DS-A/tree/main/Recursion"
@@ -74,7 +62,7 @@ const ICS4U0_Algorithms = () => {
         whileHover={{ scale:1.05 }}
         whileTap={{ scale:0.95 }}
         className='ics-section'
-        title="Object Concepts"
+        title="Search Algorithms"
         subtitle=""
         image={Logo}
         github="https://github.com/stephen-ics/ICS4U0-DS-A/tree/main/Recursion"
@@ -84,7 +72,7 @@ const ICS4U0_Algorithms = () => {
         whileHover={{ scale:1.05 }}
         whileTap={{ scale:0.95 }}
         className='ics-section'
-        title="UML Diagrams"
+        title="Results"
         subtitle=""
         image={Logo}
         github="https://github.com/stephen-ics/ICS4U0-DS-A/tree/main/Recursion"
