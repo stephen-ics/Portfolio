@@ -26,11 +26,7 @@ const ICSSection = ({ whileHover, whileTap, className, onClick, title, subtitle,
             opacity: 0,
         },
       };
-
-      const [modalOpen, setModalOpen] = useState(false);
-      const close = () => setModalOpen(false);
-      const open = () => setModalOpen(true);
-
+      
       return (
         <motion.button
             whileHover={whileHover}

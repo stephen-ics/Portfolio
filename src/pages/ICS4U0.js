@@ -2,8 +2,9 @@ import React from 'react'
 import { motion } from 'framer-motion'
 
 import ICSSection from '../components/ICSSection';
-import Logo from '../pictures/Logo.png'
 import { Link } from 'react-router-dom';
+
+import Logo from '../pictures/Logo.png'
 
 const ICS4U0 = () => {
     const container = {
@@ -36,7 +37,7 @@ const ICS4U0 = () => {
         animate='visible'
         exit='exit'
       >
-         <h1 className='text-5xl text-center mt-10'>ICS4U0 - Currently under construction!</h1>
+         <h1 className='text-5xl text-center mt-16'>ICS4U0 - Currently under construction!</h1>
 
         <motion.div className='flex flex-wrap justify-evenly'> 
         <Link to="project-management">

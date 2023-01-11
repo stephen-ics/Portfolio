@@ -6,7 +6,7 @@ import DisplayICS from '../components/DisplayICS';
 import Logo from '../pictures/Logo.png'
 
 
-const ICS4U0_DSA = () => {
+const ICS4U0_Algorithms = () => {
   const container = {
     hidden: {
       opacity: 0,
@@ -38,23 +38,23 @@ const ICS4U0_DSA = () => {
       <h1 className='text-5xl text-center mt-10'></h1>
 
       <motion.div className='flex flex-wrap justify-evenly'>
-      <Link to="/ICS4U0/data-structures-and-algorithms/data-structures">
-        <ICSSection
+
+        <DisplayICS
           whileHover={{ scale:1.05 }}
           whileTap={{ scale:0.95 }}
           className='ics-section'
-          title="Data Structures"
+          title="Classes"
           subtitle=""
           image={Logo}
           github="https://github.com/stephen-ics/ICS4U0-DS-A/tree/main/Data%20Structures"
         >
-        </ICSSection>    
-      </Link>
+        </DisplayICS>    
+      
       <DisplayICS
         whileHover={{ scale:1.05 }}
         whileTap={{ scale:0.95 }}
         className='ics-section'
-        title="Algorithms"
+        title="Documentation"
         subtitle=""
         image={Logo}
         github="https://github.com/stephen-ics/ICS4U0-DS-A/tree/main/Algorithms"
@@ -64,7 +64,27 @@ const ICS4U0_DSA = () => {
         whileHover={{ scale:1.05 }}
         whileTap={{ scale:0.95 }}
         className='ics-section'
-        title="Recursion"
+        title="File Reading and Writing"
+        subtitle=""
+        image={Logo}
+        github="https://github.com/stephen-ics/ICS4U0-DS-A/tree/main/Recursion"
+      >
+      </DisplayICS> 
+      <DisplayICS
+        whileHover={{ scale:1.05 }}
+        whileTap={{ scale:0.95 }}
+        className='ics-section'
+        title="Object Concepts"
+        subtitle=""
+        image={Logo}
+        github="https://github.com/stephen-ics/ICS4U0-DS-A/tree/main/Recursion"
+      >
+      </DisplayICS> 
+      <DisplayICS
+        whileHover={{ scale:1.05 }}
+        whileTap={{ scale:0.95 }}
+        className='ics-section'
+        title="UML Diagrams"
         subtitle=""
         image={Logo}
         github="https://github.com/stephen-ics/ICS4U0-DS-A/tree/main/Recursion"
@@ -76,4 +96,4 @@ const ICS4U0_DSA = () => {
   )
 }
 
-export default ICS4U0_DSA
+export default ICS4U0_Algorithms
