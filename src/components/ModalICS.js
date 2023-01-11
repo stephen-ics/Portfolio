@@ -5,6 +5,8 @@ import './component-styles/Modal.css'
 import { FaGithub } from 'react-icons/fa'
 import { SiDevpost } from 'react-icons/si'
 
+import ICSData from '../data/ICSData'
+
 const dropIn ={
     hidden: {
         y: '-100vh',
@@ -53,36 +55,18 @@ const Modal = ({ handleClose, title, subtitle, description, techStack, image, gi
                 <div className='w-full flex flex-col items-center'>
                     <ModalButton onClick={handleClose} label='Close'></ModalButton>
                     <div className='flex flex-col w-full h-full justify-between items-start'>
-                        <div className='modal-text-separator'>
-                            <h1 className='modal-title'>{title}</h1>
-                            <h3 className='modal-date'>{subtitle}</h3>
-                            <p className='modal-description mt-2'>{description}</p>
-                            <p className='modal-description mt-6'>{techStack}</p>
-                        </div>
-                        <div className='modal-text-separator'>
-                            <h1 className='modal-title'>{title}</h1>
-                            <h3 className='modal-date'>{subtitle}</h3>
-                            <p className='modal-description mt-2'>{description}</p>
-                            <p className='modal-description mt-6'>{techStack}</p>
-                        </div>
-                        <div className='modal-text-separator'>
-                            <h1 className='modal-title'>{title}</h1>
-                            <h3 className='modal-date'>{subtitle}</h3>
-                            <p className='modal-description mt-2'>{description}</p>
-                            <p className='modal-description mt-6'>{techStack}</p>
-                        </div>
-                        <div className='modal-text-separator'>
-                            <h1 className='modal-title'>{title}</h1>
-                            <h3 className='modal-date'>{subtitle}</h3>
-                            <p className='modal-description mt-2'>{description}</p>
-                            <p className='modal-description mt-6'>{techStack}</p>
-                        </div>
-                        <div className='modal-text-separator'>
-                            <h1 className='modal-title'>{title}</h1>
-                            <h3 className='modal-date'>{subtitle}</h3>
-                            <p className='modal-description mt-2'>{description}</p>
-                            <p className='modal-description mt-6'>{techStack}</p>
-                        </div>
+       
+                        {ICSData.map((element) => {
+                            return (
+                                <div className='modal-text-separator'>
+                                    <h1 className='modal-title'>{element.title}</h1>
+                                    <h3 className='modal-date'>{element.subtitle}</h3>
+                                    <p className='modal-description mt-2'>{element.description}</p>
+                                </div>         
+                            );
+                        })}
+    
+                  
                     </div>
                     
                 </div>
