@@ -43,6 +43,7 @@ const ICS4U0_DS = () => {
           whileHover={{ scale:1.05 }}
           whileTap={{ scale:0.95 }}
           className='ics-section'
+          id="classes"
           title="Classes"
           subtitle=""
           image={Logo}
@@ -54,6 +55,7 @@ const ICS4U0_DS = () => {
         whileHover={{ scale:1.05 }}
         whileTap={{ scale:0.95 }}
         className='ics-section'
+        id="documentation-ds"
         title="Documentation"
         subtitle=""
         image={Logo}
@@ -64,6 +66,7 @@ const ICS4U0_DS = () => {
         whileHover={{ scale:1.05 }}
         whileTap={{ scale:0.95 }}
         className='ics-section'
+        id="file-reading-and-writing"
         title="File Reading and Writing"
         subtitle=""
         image={Logo}
@@ -74,6 +77,7 @@ const ICS4U0_DS = () => {
         whileHover={{ scale:1.05 }}
         whileTap={{ scale:0.95 }}
         className='ics-section'
+        id="object-concepts"
         title="Object Concepts"
         subtitle=""
         image={Logo}
@@ -84,6 +88,7 @@ const ICS4U0_DS = () => {
         whileHover={{ scale:1.05 }}
         whileTap={{ scale:0.95 }}
         className='ics-section'
+        id="uml-diagrams"
         title="UML Diagrams"
         subtitle=""
         image={Logo}

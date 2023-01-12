@@ -7,7 +7,7 @@ import ICSSection from './ICSSection';
 import Logo from '../pictures/Logo.png'
 import './component-styles/Modal.css';
 
-const DisplayICS = ({className, title, subtitle, description, image, devpost, github, youtube,  sectionTitle, techStack}) => {
+const DisplayICS = ({id, className, title, subtitle, description, image, devpost, github, youtube,  sectionTitle, techStack}) => {
     const [modalOpen, setModalOpen] = useState(false);
     const close = () => setModalOpen(false);
     const open = () => setModalOpen(true);
@@ -17,6 +17,7 @@ const DisplayICS = ({className, title, subtitle, description, image, devpost, gi
         <ICSSection
             whileHover={{ scale:1.05 }}
             whileTap={{ scale:0.95 }}
+            id={id}
             className={className}
             onClick={() => (modalOpen ? close() : open())}
             title={title}
@@ -32,7 +33,7 @@ const DisplayICS = ({className, title, subtitle, description, image, devpost, gi
             exitBeforeEnter={true}
             onExitComplete={() => null}
         >
-            {modalOpen && <ModalICS modalOpen={modalOpen} handleClose={close} title={title} subtitle={subtitle} description={description} image={image} devpost={devpost} github={github} techStack={techStack}/>}
+            {modalOpen && <ModalICS modalOpen={modalOpen} handleClose={close} id={id} title={title} subtitle={subtitle} description={description} image={image} devpost={devpost} github={github} techStack={techStack}/>}
         </AnimatePresence>
     </motion.div>
 

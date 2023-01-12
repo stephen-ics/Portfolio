@@ -41,6 +41,7 @@ const ICS4U0_Algorithms = () => {
       <DisplayICS
         whileHover={{ scale:1.05 }}
         whileTap={{ scale:0.95 }}
+        id={"documentation-algorithms"}
         className='ics-section'
         title="Documentation"
         subtitle=""
@@ -51,6 +52,7 @@ const ICS4U0_Algorithms = () => {
       <DisplayICS
         whileHover={{ scale:1.05 }}
         whileTap={{ scale:0.95 }}
+        id={"results"}
         className='ics-section'
         title="Results"
         subtitle=""
@@ -61,6 +63,7 @@ const ICS4U0_Algorithms = () => {
       <DisplayICS
         whileHover={{ scale:1.05 }}
         whileTap={{ scale:0.95 }}
+        id={"sorting-algorithms"}
         className='ics-section'
         title="Sorting Algorithms"
         subtitle="Sorting Algorithms"
@@ -73,8 +76,9 @@ const ICS4U0_Algorithms = () => {
       <DisplayICS
         whileHover={{ scale:1.05 }}
         whileTap={{ scale:0.95 }}
+        id={"searching-algorithms"}
         className='ics-section'
-        title="Search Algorithms"
+        title="Searching Algorithms"
         subtitle=""
         image={Logo}
         github="https://github.com/stephen-ics/ICS4U0-DS-A/tree/main/Recursion"

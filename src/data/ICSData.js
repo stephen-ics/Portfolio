@@ -3,19 +3,205 @@ import React from 'react'
 
 const ICSData = [
   {
-    id: 1,
-    title: "Scholar",
-    subtitle: "very cool subtitle",
-    association: "Inspirit AI",
-    location: "Mississauga, Ontario",
-    description:
-      "this is a very cool description",
-    buttonText: "Understanding Siri Project",
-    buttonLink: "https://docs.google.com/presentation/d/1L8kr6s6bfznZn8_KiZQn8Xi7ris9Bd324nXH0YK9mDc",
-    date: "August 2022 - August 2022",
-    icon: "work",
+    id: "classes",
+    title: "Documentation",
     image: "InspiritAI.png" ,
-  }
+    subtitle1: "very cool subtitle",
+    description1:
+        "this is a very cool description",
+    subtitle2: "very cool subtitle",
+    description2:
+    "this is a very cool description",
+    subtitle3: "very cool subtitle",
+    description3:
+        "this is a very cool description",
+    subtitle4: "very cool subtitle",
+    description4:
+    "this is a very cool description",
+    subtitle5: "very cool subtitle",
+    description5:
+        "this is a very cool description",
+  },
+  {
+    id: "documentation-ds",
+    title: "Documentation",
+    image: "InspiritAI.png" ,
+    subtitle1: "very cool subtitle",
+    description1:
+        "this is a very cool description",
+    subtitle2: "very cool subtitle",
+    description2:
+    "this is a very cool description",
+    subtitle3: "very cool subtitle",
+    description3:
+        "this is a very cool description",
+    subtitle4: "very cool subtitle",
+    description4:
+    "this is a very cool description",
+    subtitle5: "very cool subtitle",
+    description5:
+        "this is a very cool description",
+  },
+  {
+    id: "file-reading-and-writing",
+    title: "File Reading and Writing",
+    image: "InspiritAI.png" ,
+    subtitle1: "very cool subtitle",
+    description1:
+        "this is a very cool description",
+    subtitle2: "very cool subtitle",
+    description2:
+    "this is a very cool description",
+    subtitle3: "very cool subtitle",
+    description3:
+        "this is a very cool description",
+    subtitle4: "very cool subtitle",
+    description4:
+    "this is a very cool description",
+    subtitle5: "very cool subtitle",
+    description5:
+        "this is a very cool description",
+  },
+  {
+    id: "object-concepts",
+    title: "Object Concepts",
+    image: "InspiritAI.png" ,
+    subtitle1: "very cool subtitle",
+    description1:
+        "this is a very cool description",
+    subtitle2: "very cool subtitle",
+    description2:
+    "this is a very cool description",
+    subtitle3: "very cool subtitle",
+    description3:
+        "this is a very cool description",
+    subtitle4: "very cool subtitle",
+    description4:
+    "this is a very cool description",
+    subtitle5: "very cool subtitle",
+    description5:
+        "this is a very cool description",
+  },
+  {
+    id: "uml-diagrams",
+    title: "UML Diagrams",
+    image: "InspiritAI.png" ,
+    subtitle1: "very cool subtitle",
+    description1:
+        "this is a very cool description",
+    subtitle2: "very cool subtitle",
+    description2:
+    "this is a very cool description",
+    subtitle3: "very cool subtitle",
+    description3:
+        "this is a very cool description",
+    subtitle4: "very cool subtitle",
+    description4:
+    "this is a very cool description",
+    subtitle5: "very cool subtitle",
+    description5:
+        "this is a very cool description",
+  },
+  {
+    id: "documentation-algorithms",
+    title: "Documentation",
+    image: "InspiritAI.png" ,
+    subtitle1: "very cool subtitle",
+    description1:
+        "this is a very cool description",
+    subtitle2: "very cool subtitle",
+    description2:
+    "this is a very cool description",
+    subtitle3: "very cool subtitle",
+    description3:
+        "this is a very cool description",
+    subtitle4: "very cool subtitle",
+    description4:
+    "this is a very cool description",
+    subtitle5: "very cool subtitle",
+    description5:
+        "this is a very cool description",
+  },
+  {
+    id:"results",
+    title: "Results",
+    image: "InspiritAI.png" ,
+    subtitle1: "very cool subtitle",
+    description1:
+      "this is a very cool description",
+    subtitle2: "very cool subtitle",
+    description2:
+    "this is a very cool description",
+    subtitle3: "very cool subtitle",
+    description3:
+      "this is a very cool description",
+    subtitle4: "very cool subtitle",
+    description4:
+    "this is a very cool description",
+    subtitle5: "very cool subtitle",
+    description5:
+      "this is a very cool description",
+  },
+  {
+    id: "sorting-algorithms",
+    title: "Sorting Algorithms",
+    image: "InspiritAI.png" ,
+    subtitle1: "very cool subtitle",
+    description1:
+      "this is a very cool description",
+    subtitle2: "very cool subtitle",
+    description2:
+    "this is a very cool description",
+    subtitle3: "very cool subtitle",
+    description3:
+      "this is a very cool description",
+    subtitle4: "very cool subtitle",
+    description4:
+    "this is a very cool description",
+    subtitle5: "very cool subtitle",
+    description5:
+      "this is a very cool description",
+  },
+  {
+    id: "searching-algorithms",
+    title: "Searching Algorithms",
+    image: "InspiritAI.png" ,
+    subtitle1: "very cool subtitle",
+    description1:
+      "this is a very cool description",
+    subtitle2: "very cool subtitle",
+    description2:
+    "this is a very cool description",
+    subtitle3: "very cool subtitle",
+    description3:
+      "this is a very cool description",
+    subtitle4: "very cool subtitle",
+    description4:
+    "this is a very cool description",
+    subtitle5: "very cool subtitle",
+    description5:
+      "this is a very cool description",
+  },
+  {
+    id: "documentation-algorithms",
+    title: "Documentation",
+    image: "InspiritAI.png" ,
+    subtitle1: "very cool subtitle",
+    description1:
+      "this is a very cool description",
+    subtitle2: "very cool subtitle",
+    description2:
+    "this is a very cool description",
+    subtitle3: "very cool subtitle",
+    description3:
+      "this is a very cool description",
+    subtitle4: "very cool subtitle",
+    description4:
+    "this is a very cool description",
+    subtitle5: "very cool subtitle",
+    description5:
+      "this is a very cool description",
+  },
 ];
   
   export default ICSData;

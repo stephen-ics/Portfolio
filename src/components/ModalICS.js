@@ -27,6 +27,8 @@ const dropIn ={
     },
 };
 
+
+
 const ModalButton = ({ onClick, label }) => (
     <motion.button
         className='modal-button'
@@ -40,7 +42,8 @@ const ModalButton = ({ onClick, label }) => (
 );
 
 
-const Modal = ({ handleClose, title, subtitle, description, techStack, image, github, devpost }) => {
+const Modal = ({ handleClose, id, title, subtitle, description, techStack, image, github, devpost }) => {
+    let isId = false;
     return (
         <Backdrop onClick={handleClose}>
             <motion.div 
@@ -57,21 +60,55 @@ const Modal = ({ handleClose, title, subtitle, description, techStack, image, gi
                     <div className='flex flex-col w-full h-full justify-between items-start'>
        
                         {ICSData.map((element) => {
+                            if (id == element.id) {
+                                isId = true;
+                            }
+
+                            else {
+                                isId = false;
+                            }
+
                             return (
-                                <div className='modal-text-separator'>
-                                    <h1 className='modal-title'>{element.title}</h1>
-                                    <h3 className='modal-date'>{element.subtitle}</h3>
-                                    <p className='modal-description mt-2'>{element.description}</p>
-                                </div>         
+                                <div>
+                                    { isId &&
+                                        <div>
+                                            <div className='modal-text-separator'>
+                                                <h1 className='modal-title'>{element.title}</h1>
+                                                <h3 className='modal-date'>{element.subtitle1}</h3>
+                                                <p className='modal-description mt-2'>{element.description1}</p>
+                                            </div>         
+                                            { element.subtitle2 && 
+                                                <div className='modal-text-separator'>
+                                                    <h3 className='modal-date'>{element.subtitle2}</h3>
+                                                    <p className='modal-description mt-2'>{element.description2}</p>
+                                                </div>        
+                                            }
+                                            { element.subtitle3 && 
+                                                <div className='modal-text-separator'>
+                                                    <h3 className='modal-date'>{element.subtitle3}</h3>
+                                                    <p className='modal-description mt-2'>{element.description3}</p>
+                                                </div>        
+                                            }
+                                            { element.subtitle4 && 
+                                                <div className='modal-text-separator'>
+                                                    <h3 className='modal-date'>{element.subtitle4}</h3>
+                                                    <p className='modal-description mt-2'>{element.description4}</p>
+                                                </div>        
+                                            }
+                                            { element.subtitle5 && 
+                                                <div className='modal-text-separator'>
+                                                    <h3 className='modal-date'>{element.subtitle5}</h3>
+                                                    <p className='modal-description mt-2'>{element.description5}</p>
+                                                </div>        
+                                            }
+                                        </div>
+                                    }
+                                </div>                           
                             );
-                        })}
-    
-                  
-                    </div>
-                    
+                        })}             
+                    </div>                  
                 </div>
             </motion.div>
-            
         </Backdrop>
     )
 }
