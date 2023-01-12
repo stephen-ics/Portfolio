@@ -5,22 +5,22 @@ const ICSData = [
   {
     id: "classes",
     title: "Classes",
-    image: "InspiritAI.png" ,
-    subtitle1: "very cool subtitle",
+    image: "" ,
+    subtitle1: "",
     description1:
-        "this is a very cool description",
-    subtitle2: "very cool subtitle",
+      "",
+    subtitle2: "",
     description2:
-    "this is a very cool description",
-    subtitle3: "very cool subtitle",
+    "",
+    subtitle3: "",
     description3:
-        "this is a very cool description",
-    subtitle4: "very cool subtitle",
+      "",
+    subtitle4: "",
     description4:
-    "this is a very cool description",
-    subtitle5: "very cool subtitle",
+    "",
+    subtitle5: "",
     description5:
-        "this is a very cool description",
+      "",
   },
   {
     id: "documentation-ds",
@@ -28,282 +28,262 @@ const ICSData = [
     image: "InspiritAI.png" ,
     subtitle1: "very cool subtitle",
     description1:
-        "this is a very cool description",
-    subtitle2: "very cool subtitle",
+        "",
+    subtitle2: "",
     description2:
-    "this is a very cool description",
-    subtitle3: "very cool subtitle",
+    "",
+    subtitle3: "",
     description3:
-        "this is a very cool description",
-    subtitle4: "very cool subtitle",
+        "",
+    subtitle4: "",
     description4:
-    "this is a very cool description",
-    subtitle5: "very cool subtitle",
+    "",
+    subtitle5: "",
     description5:
-        "this is a very cool description",
+        "",
   },
   {
     id: "file-reading-and-writing",
     title: "File Reading and Writing",
-    image: "InspiritAI.png" ,
-    subtitle1: "very cool subtitle",
+    image: "" ,
+    subtitle1: "",
     description1:
-        "this is a very cool description",
-    subtitle2: "very cool subtitle",
+      "",
+    subtitle2: "",
     description2:
-    "this is a very cool description",
-    subtitle3: "very cool subtitle",
+    "",
+    subtitle3: "",
     description3:
-        "this is a very cool description",
-    subtitle4: "very cool subtitle",
+      "",
+    subtitle4: "",
     description4:
-    "this is a very cool description",
-    subtitle5: "very cool subtitle",
+    "",
+    subtitle5: "",
     description5:
-        "this is a very cool description",
+      "",
   },
   {
     id: "object-concepts",
     title: "Object Concepts",
-    image: "InspiritAI.png" ,
-    subtitle1: "very cool subtitle",
+    image: "" ,
+    subtitle1: "",
     description1:
-        "this is a very cool description",
-    subtitle2: "very cool subtitle",
+      "",
+    subtitle2: "",
     description2:
-    "this is a very cool description",
-    subtitle3: "very cool subtitle",
+    "",
+    subtitle3: "",
     description3:
-        "this is a very cool description",
-    subtitle4: "very cool subtitle",
+      "",
+    subtitle4: "",
     description4:
-    "this is a very cool description",
-    subtitle5: "very cool subtitle",
+    "",
+    subtitle5: "",
     description5:
-        "this is a very cool description",
+      "",
   },
   {
     id: "uml-diagrams",
     title: "UML Diagrams",
-    image: "InspiritAI.png" ,
-    subtitle1: "very cool subtitle",
+    image: "" ,
+    subtitle1: "",
     description1:
-        "this is a very cool description",
-    subtitle2: "very cool subtitle",
+      "",
+    subtitle2: "",
     description2:
-    "this is a very cool description",
-    subtitle3: "very cool subtitle",
+    "",
+    subtitle3: "",
     description3:
-        "this is a very cool description",
-    subtitle4: "very cool subtitle",
+      "",
+    subtitle4: "",
     description4:
-    "this is a very cool description",
-    subtitle5: "very cool subtitle",
+    "",
+    subtitle5: "",
     description5:
-        "this is a very cool description",
+      "",
   },
   {
     id: "documentation-algorithms",
     title: "Documentation",
-    image: "InspiritAI.png" ,
-    subtitle1: "very cool subtitle",
+    image: "" ,
+    subtitle1: "",
     description1:
-        "this is a very cool description",
-    subtitle2: "very cool subtitle",
+      "",
+    subtitle2: "",
     description2:
-    "this is a very cool description",
-    subtitle3: "very cool subtitle",
+    "",
+    subtitle3: "",
     description3:
-        "this is a very cool description",
-    subtitle4: "very cool subtitle",
+      "",
+    subtitle4: "",
     description4:
-    "this is a very cool description",
-    subtitle5: "very cool subtitle",
+    "",
+    subtitle5: "",
     description5:
-        "this is a very cool description",
+      "",
   },
   {
     id:"results",
     title: "Results",
-    image: "InspiritAI.png" ,
-    subtitle1: "very cool subtitle",
+    image: "" ,
+    subtitle1: "",
     description1:
-      "this is a very cool description",
-    subtitle2: "very cool subtitle",
+      "",
+    subtitle2: "",
     description2:
-    "this is a very cool description",
-    subtitle3: "very cool subtitle",
+    "",
+    subtitle3: "",
     description3:
-      "this is a very cool description",
-    subtitle4: "very cool subtitle",
+      "",
+    subtitle4: "",
     description4:
-    "this is a very cool description",
-    subtitle5: "very cool subtitle",
+    "",
+    subtitle5: "",
     description5:
-      "this is a very cool description",
+      "",
   },
   {
     id: "sorting-algorithms",
     title: "Sorting Algorithms",
-    image: "InspiritAI.png" ,
-    subtitle1: "very cool subtitle",
+    image: "" ,
+    subtitle1: "",
     description1:
-      "this is a very cool description",
-    subtitle2: "very cool subtitle",
+      "",
+    subtitle2: "",
     description2:
-    "this is a very cool description",
-    subtitle3: "very cool subtitle",
+    "",
+    subtitle3: "",
     description3:
-      "this is a very cool description",
-    subtitle4: "very cool subtitle",
+      "",
+    subtitle4: "",
     description4:
-    "this is a very cool description",
-    subtitle5: "very cool subtitle",
+    "",
+    subtitle5: "",
     description5:
-      "this is a very cool description",
+      "",
   },
   {
     id: "searching-algorithms",
     title: "Searching Algorithms",
-    image: "InspiritAI.png" ,
-    subtitle1: "very cool subtitle",
+    image: "" ,
+    subtitle1: "",
     description1:
-      "this is a very cool description",
-    subtitle2: "very cool subtitle",
+      "",
+    subtitle2: "",
     description2:
-    "this is a very cool description",
-    subtitle3: "very cool subtitle",
+    "",
+    subtitle3: "",
     description3:
-      "this is a very cool description",
-    subtitle4: "very cool subtitle",
+      "",
+    subtitle4: "",
     description4:
-    "this is a very cool description",
-    subtitle5: "very cool subtitle",
+    "",
+    subtitle5: "",
     description5:
-      "this is a very cool description",
-  },
-  {
-    id: "documentation-algorithms",
-    title: "Documentation",
-    image: "InspiritAI.png" ,
-    subtitle1: "very cool subtitle",
-    description1:
-      "this is a very cool description",
-    subtitle2: "very cool subtitle",
-    description2:
-    "this is a very cool description",
-    subtitle3: "very cool subtitle",
-    description3:
-      "this is a very cool description",
-    subtitle4: "very cool subtitle",
-    description4:
-    "this is a very cool description",
-    subtitle5: "very cool subtitle",
-    description5:
-      "this is a very cool description",
+      "",
   },
   {
     id: "documentation-recursions",
     title: "Documentation",
-    image: "InspiritAI.png" ,
-    subtitle1: "very cool subtitle",
+    image: "" ,
+    subtitle1: "",
     description1:
-      "this is a very cool description",
-    subtitle2: "very cool subtitle",
+      "",
+    subtitle2: "",
     description2:
-    "this is a very cool description",
-    subtitle3: "very cool subtitle",
+    "",
+    subtitle3: "",
     description3:
-      "this is a very cool description",
-    subtitle4: "very cool subtitle",
+      "",
+    subtitle4: "",
     description4:
-    "this is a very cool description",
-    subtitle5: "very cool subtitle",
+    "",
+    subtitle5: "",
     description5:
-      "this is a very cool description",
+      "",
   },
   {
     id: "memoization",
     title: "Memoization",
-    image: "InspiritAI.png" ,
-    subtitle1: "very cool subtitle",
+    image: "" ,
+    subtitle1: "",
     description1:
-      "this is a very cool description",
-    subtitle2: "very cool subtitle",
+      "",
+    subtitle2: "",
     description2:
-    "this is a very cool description",
-    subtitle3: "very cool subtitle",
+    "",
+    subtitle3: "",
     description3:
-      "this is a very cool description",
-    subtitle4: "very cool subtitle",
+      "",
+    subtitle4: "",
     description4:
-    "this is a very cool description",
-    subtitle5: "very cool subtitle",
+    "",
+    subtitle5: "",
     description5:
-      "this is a very cool description",
+      "",
   },
   {
     id: "visualization-of-recursion",
     title: "Visualization of Recursion",
-    image: "InspiritAI.png" ,
-    subtitle1: "very cool subtitle",
+    image: "" ,
+    subtitle1: "",
     description1:
-      "this is a very cool description",
-    subtitle2: "very cool subtitle",
+      "",
+    subtitle2: "",
     description2:
-    "this is a very cool description",
-    subtitle3: "very cool subtitle",
+    "",
+    subtitle3: "",
     description3:
-      "this is a very cool description",
-    subtitle4: "very cool subtitle",
+      "",
+    subtitle4: "",
     description4:
-    "this is a very cool description",
-    subtitle5: "very cool subtitle",
+    "",
+    subtitle5: "",
     description5:
-      "this is a very cool description",
+      "",
   },
   {
     id: "documentation-hop-queen",
-    title: "Documentation",
-    image: "InspiritAI.png" ,
-    subtitle1: "very cool subtitle",
+    title: "Documentation - Hop Queen",
+    image: "" ,
+    subtitle1: "C# documentation",
     description1:
-      "this is a very cool description",
-    subtitle2: "very cool subtitle",
+      "In Visual C# you can create documentation for your code by including XML tags in special comment fields in the source code directly before the code block they refer to. or example: The compiler will process any tag that is valid XML. The following tags provide generally used functionality in user documentation. Note: The XML doc comments are not metadata; they are not included in the compiled assembly and therefore they are not accessible through reflection.",
+    subtitle2: "",
     description2:
-    "this is a very cool description",
-    subtitle3: "very cool subtitle",
+    "",
+    subtitle3: "",
     description3:
-      "this is a very cool description",
-    subtitle4: "very cool subtitle",
+      "",
+    subtitle4: "",
     description4:
-    "this is a very cool description",
-    subtitle5: "very cool subtitle",
+    "",
+    subtitle5: "",
     description5:
-      "this is a very cool description",
+      "",
   },
   {
     id: "download",
     title: "Download",
-    image: "InspiritAI.png" ,
-    subtitle1: "very cool subtitle",
+    image: "" ,
+    subtitle1: "",
     description1:
-      "this is a very cool description",
-    subtitle2: "very cool subtitle",
+      "",
+    subtitle2: "",
     description2:
-    "this is a very cool description",
-    subtitle3: "very cool subtitle",
+    "",
+    subtitle3: "",
     description3:
-      "this is a very cool description",
-    subtitle4: "very cool subtitle",
+      "",
+    subtitle4: "",
     description4:
-    "this is a very cool description",
-    subtitle5: "very cool subtitle",
+    "",
+    subtitle5: "",
     description5:
-      "this is a very cool description",
+      "",
   },
 ];
-  
-  export default ICSData;
+
+export default ICSData;
 
 

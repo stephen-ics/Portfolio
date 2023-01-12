@@ -58,6 +58,7 @@ const Modal = ({ handleClose, id, title, subtitle, description, techStack, image
                 <div className='w-full flex flex-col items-center'>
                     <ModalButton onClick={handleClose} label='Close'></ModalButton>
                     <div className='flex flex-col w-full h-full justify-between items-start'>
+                        hello
        
                         {ICSData.map((element) => {
                             if (id == element.id) {
@@ -70,6 +71,7 @@ const Modal = ({ handleClose, id, title, subtitle, description, techStack, image
 
                             return (
                                 <div>
+           
                                     { isId &&
                                         <div>
                                             <div className='modal-text-separator'>
@@ -102,6 +104,7 @@ const Modal = ({ handleClose, id, title, subtitle, description, techStack, image
                                                 </div>        
                                             }
                                         </div>
+                                      
                                     }
                                 </div>                           
                             );
