@@ -4,7 +4,7 @@ import React from 'react'
 const ICSData = [
   {
     id: "classes",
-    title: "Documentation",
+    title: "Classes",
     image: "InspiritAI.png" ,
     subtitle1: "very cool subtitle",
     description1:
@@ -185,6 +185,106 @@ const ICSData = [
   {
     id: "documentation-algorithms",
     title: "Documentation",
+    image: "InspiritAI.png" ,
+    subtitle1: "very cool subtitle",
+    description1:
+      "this is a very cool description",
+    subtitle2: "very cool subtitle",
+    description2:
+    "this is a very cool description",
+    subtitle3: "very cool subtitle",
+    description3:
+      "this is a very cool description",
+    subtitle4: "very cool subtitle",
+    description4:
+    "this is a very cool description",
+    subtitle5: "very cool subtitle",
+    description5:
+      "this is a very cool description",
+  },
+  {
+    id: "documentation-recursions",
+    title: "Documentation",
+    image: "InspiritAI.png" ,
+    subtitle1: "very cool subtitle",
+    description1:
+      "this is a very cool description",
+    subtitle2: "very cool subtitle",
+    description2:
+    "this is a very cool description",
+    subtitle3: "very cool subtitle",
+    description3:
+      "this is a very cool description",
+    subtitle4: "very cool subtitle",
+    description4:
+    "this is a very cool description",
+    subtitle5: "very cool subtitle",
+    description5:
+      "this is a very cool description",
+  },
+  {
+    id: "memoization",
+    title: "Memoization",
+    image: "InspiritAI.png" ,
+    subtitle1: "very cool subtitle",
+    description1:
+      "this is a very cool description",
+    subtitle2: "very cool subtitle",
+    description2:
+    "this is a very cool description",
+    subtitle3: "very cool subtitle",
+    description3:
+      "this is a very cool description",
+    subtitle4: "very cool subtitle",
+    description4:
+    "this is a very cool description",
+    subtitle5: "very cool subtitle",
+    description5:
+      "this is a very cool description",
+  },
+  {
+    id: "visualization-of-recursion",
+    title: "Visualization of Recursion",
+    image: "InspiritAI.png" ,
+    subtitle1: "very cool subtitle",
+    description1:
+      "this is a very cool description",
+    subtitle2: "very cool subtitle",
+    description2:
+    "this is a very cool description",
+    subtitle3: "very cool subtitle",
+    description3:
+      "this is a very cool description",
+    subtitle4: "very cool subtitle",
+    description4:
+    "this is a very cool description",
+    subtitle5: "very cool subtitle",
+    description5:
+      "this is a very cool description",
+  },
+  {
+    id: "documentation-hop-queen",
+    title: "Documentation",
+    image: "InspiritAI.png" ,
+    subtitle1: "very cool subtitle",
+    description1:
+      "this is a very cool description",
+    subtitle2: "very cool subtitle",
+    description2:
+    "this is a very cool description",
+    subtitle3: "very cool subtitle",
+    description3:
+      "this is a very cool description",
+    subtitle4: "very cool subtitle",
+    description4:
+    "this is a very cool description",
+    subtitle5: "very cool subtitle",
+    description5:
+      "this is a very cool description",
+  },
+  {
+    id: "download",
+    title: "Download",
     image: "InspiritAI.png" ,
     subtitle1: "very cool subtitle",
     description1:

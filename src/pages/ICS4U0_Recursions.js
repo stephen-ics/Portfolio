@@ -42,6 +42,7 @@ const ICS4U0_Recursions = () => {
         whileHover={{ scale:1.05 }}
         whileTap={{ scale:0.95 }}
         className='ics-section'
+        id="documentation-recursions"
         title="Documentation"
         subtitle=""
         image={Logo}
@@ -52,7 +53,8 @@ const ICS4U0_Recursions = () => {
         whileHover={{ scale:1.05 }}
         whileTap={{ scale:0.95 }}
         className='ics-section'
-        title="Memoization - Code"
+        id="memoization"
+        title="Memoization"
         subtitle=""
         image={Logo}
         github="https://github.com/stephen-ics/ICS4U0-DS-A/tree/main/Recursion"
@@ -62,6 +64,7 @@ const ICS4U0_Recursions = () => {
         whileHover={{ scale:1.05 }}
         whileTap={{ scale:0.95 }}
         className='ics-section'
+        id="visualization-of-recursion"
         title="Visualization of Recursion"
         subtitle=""
         image={Logo}

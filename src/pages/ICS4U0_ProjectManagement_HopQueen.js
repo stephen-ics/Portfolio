@@ -41,6 +41,7 @@ const ICS4U0_ProjectManagent_HopQueen = () => {
       <DisplayICS
         whileHover={{ scale:1.05 }}
         whileTap={{ scale:0.95 }}
+        id="documentation-hop-queen"
         className='ics-section'
         title="Documentation"
         subtitle=""
@@ -51,6 +52,7 @@ const ICS4U0_ProjectManagent_HopQueen = () => {
       <DisplayICS
         whileHover={{ scale:1.05 }}
         whileTap={{ scale:0.95 }}
+        id="download"
         className='ics-section'
         title="Download"
         subtitle=""
