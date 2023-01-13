@@ -58,56 +58,43 @@ const Modal = ({ handleClose, id, title, subtitle, description, techStack, image
                 <div className='w-full flex flex-col items-center'>
                     <ModalButton onClick={handleClose} label='Close'></ModalButton>
                     <div className='flex flex-col w-full h-full justify-between items-start'>
-                        hello
        
                         {ICSData.map((element) => {
                             if (id == element.id) {
-                                isId = true;
-                            }
-
-                            else {
-                                isId = false;
-                            }
-
-                            return (
-                                <div>
-           
-                                    { isId &&
-                                        <div>
+                                return (
+                                    <div className="whitespace-pre-line">
+                                        <div className='modal-text-separator'>
+                                            <h1 className='modal-title'>{element.title}</h1>
+                                            <h3 className='modal-date'>{element.subtitle1}</h3>
+                                            <p className='modal-description mt-2'>{element.description1}</p>
+                                        </div>         
+                                        { element.subtitle2 && 
                                             <div className='modal-text-separator'>
-                                                <h1 className='modal-title'>{element.title}</h1>
-                                                <h3 className='modal-date'>{element.subtitle1}</h3>
-                                                <p className='modal-description mt-2'>{element.description1}</p>
-                                            </div>         
-                                            { element.subtitle2 && 
-                                                <div className='modal-text-separator'>
-                                                    <h3 className='modal-date'>{element.subtitle2}</h3>
-                                                    <p className='modal-description mt-2'>{element.description2}</p>
-                                                </div>        
-                                            }
-                                            { element.subtitle3 && 
-                                                <div className='modal-text-separator'>
-                                                    <h3 className='modal-date'>{element.subtitle3}</h3>
-                                                    <p className='modal-description mt-2'>{element.description3}</p>
-                                                </div>        
-                                            }
-                                            { element.subtitle4 && 
-                                                <div className='modal-text-separator'>
-                                                    <h3 className='modal-date'>{element.subtitle4}</h3>
-                                                    <p className='modal-description mt-2'>{element.description4}</p>
-                                                </div>        
-                                            }
-                                            { element.subtitle5 && 
-                                                <div className='modal-text-separator'>
-                                                    <h3 className='modal-date'>{element.subtitle5}</h3>
-                                                    <p className='modal-description mt-2'>{element.description5}</p>
-                                                </div>        
-                                            }
-                                        </div>
-                                      
-                                    }
-                                </div>                           
-                            );
+                                                <h3 className='modal-date'>{element.subtitle2}</h3>
+                                                <p className='modal-description mt-2'>{element.description2}</p>
+                                            </div>        
+                                        }
+                                        { element.subtitle3 && 
+                                            <div className='modal-text-separator'>
+                                                <h3 className='modal-date'>{element.subtitle3}</h3>
+                                                <p className='modal-description mt-2'>{element.description3}</p>
+                                            </div>        
+                                        }
+                                        { element.subtitle4 && 
+                                            <div className='modal-text-separator'>
+                                                <h3 className='modal-date'>{element.subtitle4}</h3>
+                                                <p className='modal-description mt-2'>{element.description4}</p>
+                                            </div>        
+                                        }
+                                        { element.subtitle5 && 
+                                            <div className='modal-text-separator'>
+                                                <h3 className='modal-date'>{element.subtitle5}</h3>
+                                                <p className='modal-description mt-2'>{element.description5}</p>
+                                            </div>        
+                                        }
+                                    </div>                                    
+                                )
+                            }
                         })}             
                     </div>                  
                 </div>
