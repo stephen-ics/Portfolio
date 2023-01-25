@@ -15,9 +15,9 @@ const ICSData = [
     subtitle3: "The __init__ Method",
     description3:
       "The __init__ method is similar to constructors in C++ and Java. This method is called every time an object is created from said class and it serves to initialize the object and assign all parameters to attributes of the object. ",
-    subtitle4: "",
+    subtitle4: "Code Example + Explanation",
     description4:
-    "",
+    "This example is of the Squirtle class that defines the Squirtle object. As such, an object consists of two main parts, attributes and methods, which inherits the properties of its parent class Pokemon. The class is defined on line 4 by the squirtle keyword. Then, the __init__ function, located after the documentation, initializes the squirtle Class as Python. The __init__ function, defined from line 28 to line 39 function initializes all attributes from the Squirtle class, inheriting from the parent class and defining a few new attributes. Next, the __str__ function, defined from line 54 to 62 defines how to represent the Squirtle object as a string. It combines the squirtle, level, and name into one string and returns it. After the __str__ function is the __repr__ function, defined from line 64 to 96. This function defines how the Squirtle is represented as an object. Finally, the final fundamental property of a Class is its methods. For example, the attack methods that are defined from lines 64 to 96. It returns the damage done by the default attack. These attack methods multiply the base damage of the attack by the attack strength of the Squirtle object, an attribute defined in its parent Class.  ",
     subtitle5: "",
     description5:
       "",
@@ -35,9 +35,9 @@ const ICSData = [
     subtitle3: "Docstrings - Methods",
     description3:
         "The class constructor parameter should be documented within the __init__ class method docstring, while individual methods should be documented with their individual docstrings. Class method docstrings should include. \n\n A brief description of what the method is and what it’s used for: \n - Any arguments (both required and optional) that are passed including keyword arguments \n - Label any arguments that are considered optional or have a default value \n - Any side effects that occur when executing the method \n - Any exceptions that are raised \n - Any restrictions on when the method can be called",
-    subtitle4: "",
+    subtitle4: "Code Example + Explanation",
     description4:
-    "",
+    "Inside of the squirtle class, the first thing that is seen is the documentation. The documentation spans from line 5 to line 27 and follows the standard Python Docstrings for classes and methods. The Docstring for classes contains a summary of the class, the meaning and data type of its attributes, and the function and return types of the methods. Furthermore, the documentation of each method further details its function, parameters, and return value.",
     subtitle5: "",
     description5:
         "",
@@ -104,8 +104,8 @@ const ICSData = [
   },
   {
     id: "documentation-algorithms",
-    title: "Documentation",
-    image: "" ,
+    title: "Python Documentation",
+    image: "InspiritAI.png" ,
     subtitle1: "Comments",
     description1:
         "Comments in Python are created using the pound sign (#). The comment should be a brief description of at most a few sentences. According to PEP 8, comments should have a maximum length of 72 characters. If a comment is going to be greater than the character limit, using multiple lines of commenting is appropriate. Commenting serves many purposes such as planning and reviewing code descriptions, algorithmic descriptions, and tagging (the use of labelling specific sections of the code such as BUG, FIXME, and TODO).",
@@ -146,15 +146,15 @@ const ICSData = [
     id: "sorting-algorithms",
     title: "Sorting Algorithms",
     image: "" ,
-    subtitle1: "",
+    subtitle1: "Selection Sort",
     description1:
-      "",
-    subtitle2: "",
+      "The selection sort is a sorting algorithm that sorts an array by repeatedly finding the minimum element from the unsorted part. The algorithm maintains two subarrays, the subarray already sorted and the remaining unsorted subarray. In every iteration of the selection sort, the minimum element is picked and moved to the sorted subarray, and the sorted array size increases by one. ",
+    subtitle2: "Bubble Sort",
     description2:
-    "",
-    subtitle3: "",
+    "Bubble sort is a sorting algorithm that works through the input list element by element, comparing the current element to the one after it and swapping the values if necessary. This continues until it reaches the end of the list, and the swapping starts back at the beginning. This continues until there are no swaps, which means the list is completely sorted.",
+    subtitle3: "Tim Sort",
     description3:
-      "",
+      "Timsort is a hybrid sorting algorithm, consisting of a combination of merge sort and insertion sort, designed to change sorting algorithms depending on the size of the data set. It was created by Tim Peters, and is the sorting algorithm utilized in Python.",
     subtitle4: "",
     description4:
     "",
@@ -166,12 +166,12 @@ const ICSData = [
     id: "searching-algorithms",
     title: "Searching Algorithms",
     image: "" ,
-    subtitle1: "",
+    subtitle1: "Linear Search",
     description1:
-      "",
-    subtitle2: "",
+      "Linear search is a searching algorithm that starts from the leftmost element in the array and one by one compares the value it is searching for to every element of the array. If the value is matched by an element in the array, it returns the index otherwise it returns -1 to show there are no matches",
+    subtitle2: "Binary Search",
     description2:
-    "",
+    "The binary search is a searching algorithm that requires the searched array to be sorted, and it cancels out half of the elements after each comparison. First, the value to be searched is compared with the middle element. If it matches, it returns the index, else if the value is greater than the middle element, the same searching pattern is applied to the right half of the array. If the value is less than the middle element, the left half of the array is cut in half. This repeats until the element is either found or -1 is returned, meaning that the element is not in the array.",
     subtitle3: "",
     description3:
       "",
@@ -184,17 +184,17 @@ const ICSData = [
   },
   {
     id: "documentation-recursions",
-    title: "Documentation",
+    title: "Python Documentation",
     image: "" ,
-    subtitle1: "",
+    subtitle1: "Commenting",
     description1:
-      "",
-    subtitle2: "",
+      "Comments in Python are created using the pound sign (#). The comment should be a brief description of at most a few sentences. According to PEP 8, comments should have a maximum length of 72 characters. If a comment is going to be greater than the character limit, using multiple lines of commenting is appropriate. Commenting serves many purposes such as planning and reviewing code descriptions, algorithmic descriptions, and tagging (the use of labelling specific sections of the code such as BUG, FIXME, and TODO).",
+    subtitle2: "Docstrings - Classes",
     description2:
-    "",
-    subtitle3: "",
+    "The class docstrings are created for the class itself, as well as the methods in the class. The docstrings are placed immediately following the class and method indented by one level. The class docstring should contain \n\n A brief summary of its purpose and behavior \n - Any public methods, along with a brief description \n - Any class attributes \n - Anything related to the interface for subclassers, if the class is intended to be subclassed",
+    subtitle3: "Docstrings - Methods",
     description3:
-      "",
+        "The class constructor parameter should be documented within the __init__ class method docstring, while individual methods should be documented with their individual docstrings. Class method docstrings should include. \n\n A brief description of what the method is and what it’s used for: \n - Any arguments (both required and optional) that are passed including keyword arguments \n - Label any arguments that are considered optional or have a default value \n - Any side effects that occur when executing the method \n - Any exceptions that are raised \n - Any restrictions on when the method can be called",
     subtitle4: "",
     description4:
     "",
@@ -206,9 +206,9 @@ const ICSData = [
     id: "memoization",
     title: "Memoization",
     image: "" ,
-    subtitle1: "",
+    subtitle1: "What is Memoization?",
     description1:
-      "",
+      "Memoization is an optimization technique made to increase the efficiency of recursive programs. It works by declaring a temporary data holder, known as a cache, which is usually a dictionary in Python, and checking before the recursive algorithm begins if the value is in the cache (if the value has previously been calculated). If the value is not in the cache, after calculating the value the recursive algorithm will add it into the cache so next time when the same value appears you can retrieve it directly from the cache.",
     subtitle2: "",
     description2:
     "",

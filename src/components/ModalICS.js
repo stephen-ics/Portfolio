@@ -4,6 +4,7 @@ import Backdrop from './Backdrop'
 import './component-styles/Modal.css'
 import { FaGithub } from 'react-icons/fa'
 import { SiDevpost } from 'react-icons/si'
+import Logo from '../pictures/Logo.png'
 
 import ICSData from '../data/ICSData'
 
@@ -62,37 +63,61 @@ const Modal = ({ handleClose, id, title, subtitle, description, techStack, image
                         {ICSData.map((element) => {
                             if (id == element.id) {
                                 return (
-                                    <div className="whitespace-pre-line">
-                                        <div className='modal-text-separator'>
-                                            <h1 className='modal-title'>{element.title}</h1>
-                                            <h3 className='modal-date'>{element.subtitle1}</h3>
-                                            <p className='modal-description mt-2'>{element.description1}</p>
-                                        </div>         
-                                        { element.subtitle2 && 
-                                            <div className='modal-text-separator'>
-                                                <h3 className='modal-date'>{element.subtitle2}</h3>
-                                                <p className='modal-description mt-2'>{element.description2}</p>
-                                            </div>        
-                                        }
-                                        { element.subtitle3 && 
-                                            <div className='modal-text-separator'>
-                                                <h3 className='modal-date'>{element.subtitle3}</h3>
-                                                <p className='modal-description mt-2'>{element.description3}</p>
-                                            </div>        
-                                        }
-                                        { element.subtitle4 && 
-                                            <div className='modal-text-separator'>
-                                                <h3 className='modal-date'>{element.subtitle4}</h3>
-                                                <p className='modal-description mt-2'>{element.description4}</p>
-                                            </div>        
-                                        }
-                                        { element.subtitle5 && 
-                                            <div className='modal-text-separator'>
-                                                <h3 className='modal-date'>{element.subtitle5}</h3>
-                                                <p className='modal-description mt-2'>{element.description5}</p>
-                                            </div>        
-                                        }
-                                    </div>                                    
+                         
+                                    <div className="whitespace-pre-line ">
+   
+                                        <div className='flex'>
+                                            <div className='w-1/2'>
+                                                <div className='modal-text-separator'>
+                                                    <h1 className='modal-title'>{element.title}</h1>
+                                                    <h3 className='modal-date'>{element.subtitle1}</h3>
+                                                    <p className='modal-description mt-2'>{element.description1}</p>
+                                                </div>  
+                                                { element.subtitle2 && 
+                                                    <div className='modal-text-separator'>
+                                                        <h3 className='modal-date'>{element.subtitle2}</h3>
+                                                        <p className='modal-description mt-2'>{element.description2}</p>
+                                                    </div>        
+                                                }
+                                                { element.subtitle3 && 
+                                                    <div className='modal-text-separator'>
+                                                        <h3 className='modal-date'>{element.subtitle3}</h3>
+                                                        <p className='modal-description mt-2'>{element.description3}</p>
+                                                    </div>        
+                                                }
+                                                { element.subtitle4 && 
+                                                    <div className='modal-text-separator'>
+                                                        <h3 className='modal-date'>{element.subtitle4}</h3>
+                                                            <p className='modal-description mt-2'>{element.description4}</p>
+                                                    </div>        
+                                                }
+                                                { element.subtitle5 && 
+                                                    <div className='modal-text-separator'>
+                                                        <h3 className='modal-date'>{element.subtitle5}</h3>
+                                                        <p className='modal-description mt-2'>{element.description5}</p>
+                                                    </div>        
+                                                }
+                                            </div>
+                                            <div className='w-1/2 m-20'>
+                                                <img src={Logo} />
+                                            </div>
+                                        </div>
+                            
+                                            { element.subtitle2 && 
+                                                <div className='flex'>
+                                                    <div className='modal-text-separator w-1/2'>
+                                                        <h3 className='modal-date'>{element.subtitle6}</h3>
+                                                        <p className='modal-description mt-2'>{element.description6}</p>
+                                                    </div>        
+                                                    <div className=''>
+                                                        <img className='m-20' src={Logo} />
+                                                    </div>
+                                                </div>
+                                            }           
+                                                
+                                  </div>  
+                                  
+                                                                      
                                 )
                             }
                         })}             
