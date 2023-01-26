@@ -1,3 +1,9 @@
+.modal-image-width {
+  width: calc(50rem + 50vw);
+  object-fit: cover;
+
+}
+
 .modal {
   width: calc(5rem + 75vw);
   height: calc(5rem + 50vh);

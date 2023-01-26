@@ -42,13 +42,14 @@ const ICS4U0_Recursions = () => {
         whileHover={{ scale:1.05 }}
         whileTap={{ scale:0.95 }}
         className='ics-section'
-        id="documentation-recursions"
-        title="Documentation"
+        id="recursion"
+        title="Recursion"
         subtitle=""
         image={Logo}
-        github="https://github.com/stephen-ics/ICS4U0-DS-A/tree/main/Algorithms"
+        github="https://github.com/stephen-ics/ICS4U0-DS-A/tree/main/Recursion"
       >
-      </DisplayICS>    
+      </DisplayICS> 
+      
       <DisplayICS
         whileHover={{ scale:1.05 }}
         whileTap={{ scale:0.95 }}

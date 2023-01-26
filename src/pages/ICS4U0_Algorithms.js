@@ -41,36 +41,14 @@ const ICS4U0_Algorithms = () => {
       <DisplayICS
         whileHover={{ scale:1.05 }}
         whileTap={{ scale:0.95 }}
-        id={"documentation-algorithms"}
-        className='ics-section'
-        title="Documentation"
-        subtitle=""
-        image={Logo}
-        github="https://github.com/stephen-ics/ICS4U0-DS-A/tree/main/Algorithms"
-      >
-      </DisplayICS>  
-      <DisplayICS
-        whileHover={{ scale:1.05 }}
-        whileTap={{ scale:0.95 }}
-        id={"results"}
-        className='ics-section'
-        title="Results"
-        subtitle=""
-        image={Logo}
-        github="https://github.com/stephen-ics/ICS4U0-DS-A/tree/main/Recursion"
-      >
-      </DisplayICS>   
-      <DisplayICS
-        whileHover={{ scale:1.05 }}
-        whileTap={{ scale:0.95 }}
         id={"sorting-algorithms"}
         className='ics-section'
         title="Sorting Algorithms"
-        subtitle="Sorting Algorithms"
-        description="Sorting Algorithms Sorting Algorithms Sorting Algorithms Sorasjkdh asjdhaskdjh aksjdh kja cjdhajshd kjashdk jsahd kjashsasjkdh asjdhaskdjh aksjdh kja cjdhajshd kjashdk jsahd kjashsasjkdh asjdhaskdjh aksjdh kja cjdhajshd kjashdk jsahd kjashsasjkdh asjkdh asjdhaskdjh aksjdh kja cjdhajshd kjashdk jsahd kjashsasjkdh asjdhaskdjh aksjdh kja cjdhajshd kjashdk jsahd kjashsasjkdh asjdhaskdjh aksjdh kja cjdhajshd kjashdk jsahd kjashsasjkdh asjdhaskdjh aksjdh kja cjdhajshd kjashdk jsahd kjashsasjdhaskdjh aksjdh kja cjdhajshd kjashdk jsahd kjashsasjkdh asjdhaskdjh aksjdh kja cjdhajshd kjashdk jsahd kjashsting Algorithms Sorting Algorithms Sorting Algorithms Sorting Algorithms"
-        techStack="asjkdh asjdhaskdjh aksjdh kja cjdhajshd kjashdk jsahd kjashsasjkdh asjdhaskdjh aksjdh kja cjdhajshd kjashdk jsahd kjashsasjkdh asjdhaskdjh aksjdh kja cjdhajshd kjashdk jsahd kjashsasjkdh asjdhaskdjh aksjdh kja cjdhajshd kjashdk jsahd kjashsasjkdh asjdhaskdjh aksjdh kja cjdhajshd kjashdk jsahd kjashsasjkdh asjdhaskdjh aksjdh kja cjdhajshd kjashdk jsahd kjashsasjkdh asjdhaskdjh aksjdh kja cjdhajshd kjashdk jsahd kjashsasjkdh asjdhaskdjh aksjdh kja cjdhajshd kjashdk jsahd kjashsasjkdh asjdhaskdjh aksjdh kja cjdhajshd kjashdk jsahd kjashs"
+        subtitle=""
+        description=""
+        techStack=""
         image={Logo}
-        github="https://github.com/stephen-ics/ICS4U0-DS-A/tree/main/Recursion"
+        github="https://github.com/stephen-ics/ICS4U0-DS-A/blob/main/Algorithms/main.py"
       >
       </DisplayICS> 
       <DisplayICS
@@ -81,9 +59,20 @@ const ICS4U0_Algorithms = () => {
         title="Searching Algorithms"
         subtitle=""
         image={Logo}
-        github="https://github.com/stephen-ics/ICS4U0-DS-A/tree/main/Recursion"
+        github="https://github.com/stephen-ics/ICS4U0-DS-A/blob/main/Algorithms/main.py"
       >
       </DisplayICS>  
+      <DisplayICS
+        whileHover={{ scale:1.05 }}
+        whileTap={{ scale:0.95 }}
+        id={"results"}
+        className='ics-section'
+        title="Results"
+        subtitle=""
+        image={Logo}
+        github="https://github.com/stephen-ics/ICS4U0-DS-A/blob/main/Algorithms/main.py"
+      >
+      </DisplayICS>   
       </motion.div>
 
     </motion.div>
