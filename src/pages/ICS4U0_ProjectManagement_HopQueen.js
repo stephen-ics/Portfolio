@@ -4,7 +4,8 @@ import { Link } from 'react-router-dom'
 import ICSSection from '../components/ICSSection';
 import DisplayICS from '../components/DisplayICS';
 import Logo from '../pictures/Logo.png'
-
+import HopQueenDocumentation from '../pictures/HopQueenDocumentation.png'
+import HopQueenDownload from '../pictures/HopQueenDownload.png'
 
 const ICS4U0_ProjectManagent_HopQueen = () => {
   const container = {
@@ -28,7 +29,7 @@ const ICS4U0_ProjectManagent_HopQueen = () => {
   };
   
   return (
-    <motion.div className='text-slate-900 mb-10 w-full flex flex-col'
+    <motion.div className='text-slate-900 mb-10 mt-36 w-full flex flex-col'
     variants={container}
     initial='hidden'
     animate='visible'
@@ -45,7 +46,7 @@ const ICS4U0_ProjectManagent_HopQueen = () => {
         className='ics-section'
         title="Documentation"
         subtitle=""
-        image={Logo}
+        image={HopQueenDownload}
         github="https://github.com/stephen-ics/ICS4U0-DS-A/tree/main/Algorithms"
       >
       </DisplayICS>    
@@ -56,7 +57,7 @@ const ICS4U0_ProjectManagent_HopQueen = () => {
         className='ics-section'
         title="Download"
         subtitle=""
-        image={Logo}
+        image={HopQueenDocumentation}
         github="https://github.com/stephen-ics/ICS4U0-DS-A/tree/main/Recursion"
       >
       </DisplayICS> 

@@ -5,6 +5,14 @@ import ICSSection from '../components/ICSSection';
 import DisplayICS from '../components/DisplayICS';
 import Logo from '../pictures/Logo.png'
 
+import Classes from '../pictures/ClassesSection.png'
+import FileReadingAndWriting from '../pictures/FileReadingAndWritingSection.png'
+import ObjectConcepts from '../pictures/ObjectConceptsSection.png'
+import Documentation from '../pictures/DocumentationSection.png'
+import UMLDiagrams from '../pictures/UMLDiagrams.png'
+
+import DataStructures from '../pictures/DataStructuresSection.png'
+
 
 const ICS4U0_DS = () => {
   const container = {
@@ -28,7 +36,7 @@ const ICS4U0_DS = () => {
   };
   
   return (
-    <motion.div className='text-slate-900 mb-10 w-full flex flex-col'
+    <motion.div className='text-slate-900 mb-10 w-full flex flex-col mt-36'
     variants={container}
     initial='hidden'
     animate='visible'
@@ -46,8 +54,8 @@ const ICS4U0_DS = () => {
           id="classes"
           title="Classes"
           subtitle=""
-          image={Logo}
-          github="https://github.com/stephen-ics/ICS4U0-DS-A/tree/main/Data%20Structures"
+          image={Classes}
+          github="https://github.com/stephen-ics/ICS4U0-DS-A/blob/main/Data%20Structures/Classes/Pokemon/Squirtle.py"
         >
         </DisplayICS>    
       
@@ -58,8 +66,8 @@ const ICS4U0_DS = () => {
         id="documentation-ds"
         title="Documentation"
         subtitle=""
-        image={Logo}
-        github="https://github.com/stephen-ics/ICS4U0-DS-A/tree/main/Algorithms"
+        image={Documentation}
+        github="https://github.com/stephen-ics/ICS4U0-DS-A/blob/main/Data%20Structures/Classes/Pokemon/Squirtle.py"
       >
       </DisplayICS>    
       <DisplayICS
@@ -69,8 +77,8 @@ const ICS4U0_DS = () => {
         id="file-reading-and-writing"
         title="File Reading and Writing"
         subtitle=""
-        image={Logo}
-        github="https://github.com/stephen-ics/ICS4U0-DS-A/tree/main/Recursion"
+        image={FileReadingAndWriting}
+        github="https://github.com/stephen-ics/ICS4U0-DS-A/blob/main/Data%20Structures/Classes/Pokemon/Squirtle.py"
       >
       </DisplayICS> 
       <DisplayICS
@@ -80,8 +88,8 @@ const ICS4U0_DS = () => {
         id="object-concepts"
         title="Object Concepts"
         subtitle=""
-        image={Logo}
-        github="https://github.com/stephen-ics/ICS4U0-DS-A/tree/main/Recursion"
+        image={ObjectConcepts}
+        github="https://github.com/stephen-ics/ICS4U0-DS-A/blob/main/Data%20Structures/Classes/Pokemon/Squirtle.py"
       >
       </DisplayICS> 
       <DisplayICS
@@ -91,7 +99,7 @@ const ICS4U0_DS = () => {
         id="uml-diagrams"
         title="UML Diagrams"
         subtitle=""
-        image={Logo}
+        image={UMLDiagrams}
         github="https://github.com/stephen-ics/ICS4U0-DS-A/tree/main/Recursion"
       >
       </DisplayICS>  

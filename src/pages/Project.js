@@ -74,7 +74,6 @@ const Project = () => {
         <DisplayModal title='Tokens For Good' subtitle='June 2022' description='Our project gives people who donate to charity an NFT. This gives people the novelty of possessing limited-time collectables and a sense of pride knowing they supported a good cause, increasing the incentive to donate.' techStack='We designed the UI with Figma and implemented the front end using React.js and Chakra UI. The blockchain was implemented with the DesO utility Library and the login was implemented through DeSo Login' image={TokensForGood}></DisplayModal>
         <DisplayModal title='BitBots' subtitle='January 2022' description='Bitbots is a program that uses computer vision and artificial intelligence to convert ASL signs into English text or audio, and vice versa. It takes input from a user who finger-spells letters, and the phrase is then interpreted into text or audio.' techStack='We built Speak Out! using Google Teachable Machine and the interactive dashboard using HTML,CSS,Javascript and Netlify. As we used Teachable it allowed us to concentrate a lot more on the data to train to give out more accurate results!' image={BitBots}></DisplayModal>
       </motion.div>
-
     </motion.div>
   )
 }

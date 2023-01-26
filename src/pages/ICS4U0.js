@@ -5,6 +5,8 @@ import ICSSection from '../components/ICSSection';
 import { Link } from 'react-router-dom';
 
 import Logo from '../pictures/Logo.png'
+import ProjectManagementSection from '../pictures/ProjectManagementSection.png'
+import DSA from '../pictures/DSASection.png'
 
 const ICS4U0 = () => {
     const container = {
@@ -31,13 +33,12 @@ const ICS4U0 = () => {
     
       return (
         <motion.div 
-        className='mt-10 flex flex-col text-center justify-center text-slate-900'
+        className='mt-36 flex flex-col text-center justify-center text-slate-900'
         variants={container}
         initial='hidden'
         animate='visible'
         exit='exit'
       >
-         <h1 className='text-5xl text-center mt-16'>ICS4U0 - Currently under construction!</h1>
 
         <motion.div className='flex flex-wrap justify-evenly'> 
         <Link to="project-management">
@@ -47,7 +48,7 @@ const ICS4U0 = () => {
               className='ics-section'
               title="Project Management"
               subtitle=""
-              image={Logo}
+              image={ProjectManagementSection}
             >
           </ICSSection>
         </Link>
@@ -58,7 +59,7 @@ const ICS4U0 = () => {
               className='ics-section'
               title="Data Structures/Algorithms"
               subtitle=""
-              image={Logo}
+              image={DSA}
             >
           </ICSSection>
         </Link>

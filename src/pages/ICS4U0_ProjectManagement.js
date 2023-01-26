@@ -7,6 +7,7 @@ import { Link } from 'react-router-dom'
 
 import DisplayICS from '../components/DisplayICS';
 import Logo from '../pictures/Logo.png'
+import HopQueen from '../pictures/HopQueen.png'
 
 const ICS4U0_ProjectManagement = () => {
   const container = {
@@ -33,7 +34,7 @@ const ICS4U0_ProjectManagement = () => {
 
   
   return (
-    <motion.div className='text-slate-900 mb-10 w-full flex flex-col'
+    <motion.div className='text-slate-900 mb-10 mt-36 w-full flex flex-col'
     variants={container}
     initial='hidden'
     animate='visible'
@@ -49,7 +50,7 @@ const ICS4U0_ProjectManagement = () => {
             className='ics-section'
             title="Hop Queen"
             subtitle=""
-            image={Logo}
+            image={HopQueen}
             github="https://github.com/stephen-ics/Hop-Queen"
             youtube="https://www.youtube.com/watch?v=-orOY6NSltM">
           </ICSSection> 

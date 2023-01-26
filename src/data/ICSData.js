@@ -5,7 +5,7 @@ const ICSData = [
   {
     id: "classes",
     title: "Classes",
-    image: require("../pictures/Logo.png") ,
+    image: require("../pictures/ClassesModal.png") ,
     subtitle1: "Python Classes",
     description1:
     "A class is a blueprint defined by the user, from which objects are created from. Classes allow for the user to bundle data with functionality. Creating a new class creates a new type of object, allowing new instances of that type to be created. Each class instance can have attributes attached to it, that maintains its state. Classes are created by the keyword class, white attributes are the variables that belong to said class. Attributes in Python are always public and can be accessed using the dot (.) operator. For example MyClass.myAttribute",
@@ -33,6 +33,7 @@ const ICSData = [
   {
     id: "documentation-ds",
     title: "Python Documentation",
+    image: require("../pictures/ClassesModal.png") ,
     subtitle1: "Comments",
     description1:
         "Comments in Python are created using the pound sign (#). The comment should be a brief description of at most a few sentences. According to PEP 8, comments should have a maximum length of 72 characters. If a comment is going to be greater than the character limit, using multiple lines of commenting is appropriate. Commenting serves many purposes such as planning and reviewing code descriptions, algorithmic descriptions, and tagging (the use of labelling specific sections of the code such as BUG, FIXME, and TODO).",
@@ -60,6 +61,7 @@ const ICSData = [
   {
     id: "file-reading-and-writing",
     title: "File Reading and Writing",
+    image: require("../pictures/FileReadingAndWritingModal.png") ,
     subtitle1: "What is a JSON File",
     description1:
       "JSON stands for Javascript Object Notation. It is an executable script file, made up of text in a programming language, and it is often used to store and retrieve data. Python supports JSON through its built-in JSON package. To use this feature, we must import the json package in the Python script. The text in the JSON is done through quoted-strings, which contains the value in key-value mapping within the { }. Its format is similar to a dictionary in Python.",
@@ -86,7 +88,7 @@ const ICSData = [
   },
   {
     id: "object-concepts",
-    image: "" ,
+    image: require("../pictures/InheritanceModal.png") ,
     subtitle1: "Inheritance",
     description1:
       "Inheritance allows for us to define a class that inherits all the methods and attributes of another class. The parent class is the class being inherited from, also known as the base class. While the child class is the class that inherits from another class, also known as the derived class. To create a class that inherits the functionality from another class, the parent class is sent in as a parameter while creating the first class. Furthermore, Python has the super() function, to automatically inherit the methods and properties of its parent class.",
@@ -142,7 +144,7 @@ const ICSData = [
   {
     id:"results",
     title: "Results",
-    image: "" ,
+    image: require("../pictures/ResultsModal.png"),
     subtitle1: "Expectations vs Reality",
     description1:
       "The trend of the graph generally aligns with the expected theoretical versions of the graph, this would make sense because the time complexity of these algorithms are constant, and therefore as values get very large, anomalies are expected to be drowned out, and a general trend is expected to be shown. This is generally the case, shown in the graphs as they have similar trends to the expected trends. For example, the linear search cases are relatively linear, while the selective sort cases increase exponentially, just like its expected case. However, it is also observed that most of the derived “Worst Case” graphs were strangely faster than a lot of the actual times observed. This is most apparent in the “Binary Search Cases” graph, which has the theoretical worst case as the case with the fastest run times. This is likely due to the inaccuracy of the derived formula added onto the inconsistency of my desktops performance speed. For starters, the formula to calculate expected time is based on the lines/curves of best fit for the “Worst Case” graph. This assumes that the “Worst Case” graphs are accurate and consistent to the other graphs, which may not always be the case. This is due to the inconsistent performance speed of my desktop which can be impacted by a variety of things such as CPU and memory usage.",
@@ -170,6 +172,7 @@ const ICSData = [
   {
     id: "sorting-algorithms",
     title: "Sorting Algorithms",
+    image: require("../pictures/SortingAlgModal.png") ,
     subtitle1: "Selection Sort",
     description1:
       "The selection sort is a sorting algorithm that sorts an array by repeatedly finding the minimum element from the unsorted part. The algorithm maintains two subarrays, the subarray already sorted and the remaining unsorted subarray. In every iteration of the selection sort, the minimum element is picked and moved to the sorted subarray, and the sorted array size increases by one. ",
@@ -197,6 +200,7 @@ const ICSData = [
   {
     id: "searching-algorithms",
     title: "Searching Algorithms",
+    image: require("../pictures/SearchingAlgModal.png") ,
     subtitle1: "Linear Search",
     description1:
       "Linear search is a searching algorithm that starts from the leftmost element in the array and one by one compares the value it is searching for to every element of the array. If the value is matched by an element in the array, it returns the index otherwise it returns -1 to show there are no matches",
@@ -222,35 +226,9 @@ const ICSData = [
     codeexample4: "",
   },
   {
-    id: "documentation-recursions",
-    title: "Python Documentation",
-    subtitle1: "Commenting",
-    description1:
-      "Comments in Python are created using the pound sign (#). The comment should be a brief description of at most a few sentences. According to PEP 8, comments should have a maximum length of 72 characters. If a comment is going to be greater than the character limit, using multiple lines of commenting is appropriate. Commenting serves many purposes such as planning and reviewing code descriptions, algorithmic descriptions, and tagging (the use of labelling specific sections of the code such as BUG, FIXME, and TODO).",
-    subtitle2: "Docstrings - Classes",
-    description2:
-    "The class docstrings are created for the class itself, as well as the methods in the class. The docstrings are placed immediately following the class and method indented by one level. The class docstring should contain \n\n A brief summary of its purpose and behavior \n - Any public methods, along with a brief description \n - Any class attributes \n - Anything related to the interface for subclassers, if the class is intended to be subclassed",
-    subtitle3: "Docstrings - Methods",
-    description3:
-        "The class constructor parameter should be documented within the __init__ class method docstring, while individual methods should be documented with their individual docstrings. Class method docstrings should include. \n\n A brief description of what the method is and what it’s used for: \n - Any arguments (both required and optional) that are passed including keyword arguments \n - Label any arguments that are considered optional or have a default value \n - Any side effects that occur when executing the method \n - Any exceptions that are raised \n - Any restrictions on when the method can be called",
-    subtitle4: "",
-    description4:
-    "",
-    subtitle5: "",
-    description5:
-      "",
-      code1: "",
-    codeexample1: "",
-    code2: "",
-    codeexample2:"",
-    code3: "",
-    codeexample3: "",
-    code4: "",
-    codeexample4: "",
-  },
-  {
     id: "recursion",
     title: "Recursion",
+    image: require("../pictures/RecursionModal.png"),
     subtitle1: "What is Recursion?",
     description1:
       "The process of recursion is known as when a function directly or indirectly calls itself, a function that does this is known as a recursive function. While a for loop is used to solve problems with known amounts of looping times, a recursive function solves a problem that has unknown amount of looping times, and will only stop calling itself after a condition has been met, this condition is known as its base condition. When running a recursive function, the set of operations rules are constant, but the inputs are always changing, and the input usually decreases every step to make the problem smaller. A basic use of a recursive function is factorial, where it multiplies itself by itself subtract by 1 and keeps calling the function until the value being multiplied reaches one. ",
@@ -278,6 +256,7 @@ const ICSData = [
   {
     id: "memoization",
     title: "Memoization",
+    image: require("../pictures/MemoizationModal.png"),
     subtitle1: "What is Memoization?",
     description1:
       "Memoization is an optimization technique made to increase the efficiency of recursive programs. It works by declaring a temporary data holder, known as a cache, which is usually a dictionary in Python, and checking before the recursive algorithm begins if the value is in the cache (if the value has previously been calculated). If the value is not in the cache, after calculating the value the recursive algorithm will add it into the cache so next time when the same value appears you can retrieve it directly from the cache.",
@@ -333,6 +312,7 @@ const ICSData = [
   {
     id: "documentation-hop-queen",
     title: "Documentation - Hop Queen",
+    image: require("../pictures/HopQueenDocumentationModal.png"),
     subtitle1: "C# documentation",
     description1:
       "In Visual C# you can create documentation for your code by including XML tags in special comment fields in the source code directly before the code block they refer to. or example: The compiler will process any tag that is valid XML. The following tags provide generally used functionality in user documentation. Note: The XML doc comments are not metadata; they are not included in the compiled assembly and therefore they are not accessible through reflection.",
@@ -360,6 +340,7 @@ const ICSData = [
   {
     id: "download",
     title: "Download",
+    image: require("../pictures/HopQueenModal.png") ,
     subtitle1: "Download the Game",
     description1:
     "Step 1. Download UnityHub and Unity to run the game \n Step 2. Register for a Unity License \n Step 3. Clone this Github Repository using the terminal \n Step 4. Open the cloned file as a project in UnityHub, and run Unity",

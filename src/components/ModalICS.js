@@ -67,7 +67,7 @@ const Modal = ({ handleClose, id, title, subtitle, description, techStack, image
                                     <div className="whitespace-pre-line ">
    
                                         <div className='flex'>
-                                            <div className='w-2/3'>
+                                            <div className='w-1/2'>
                                                 <h1 className='text-center mt-6 font-bold'>NOTE: The lines referred to below can be found in the Github Repository linked to Github Sticker on each topics tab</h1>
                                                 <div className='modal-text-separator'>
                                                     <h1 className='modal-title'>{element.title}</h1>
@@ -99,7 +99,7 @@ const Modal = ({ handleClose, id, title, subtitle, description, techStack, image
                                                     </div>        
                                                 }
                                             </div>
-                                            <div className='w-1/3 m-20'>
+                                            <div className='w-1/2 m-20'>
                                                 { element.image &&
                                                     <img className='modal-image-width' src={element.image} />
                                                 }

@@ -4,6 +4,9 @@ import { Link } from 'react-router-dom'
 import ICSSection from '../components/ICSSection';
 import DisplayICS from '../components/DisplayICS';
 import Logo from '../pictures/Logo.png'
+import Recursion from '../pictures/RecursionSection.png'
+import DataStructures from '../pictures/DataStructuresSection.png'
+import Algorithms from '../pictures/AlgorithmsSection.png'
 
 
 const ICS4U0_DSA = () => {
@@ -28,7 +31,7 @@ const ICS4U0_DSA = () => {
   };
   
   return (
-    <motion.div className='text-slate-900 mb-10 w-full flex flex-col'
+    <motion.div className='text-slate-900 mb-10 w-full flex flex-col mt-36'
     variants={container}
     initial='hidden'
     animate='visible'
@@ -45,7 +48,7 @@ const ICS4U0_DSA = () => {
           className='ics-section'
           title="Data Structures"
           subtitle=""
-          image={Logo}
+          image={DataStructures}
           github="https://github.com/stephen-ics/ICS4U0-DS-A/tree/main/Data%20Structures"
         >
         </ICSSection>    
@@ -57,7 +60,7 @@ const ICS4U0_DSA = () => {
           className='ics-section'
           title="Algorithms"
           subtitle=""
-          image={Logo}
+          image={Algorithms}
           github="https://github.com/stephen-ics/ICS4U0-DS-A/tree/main/Algorithms"
         >
         </ICSSection>    
@@ -69,7 +72,7 @@ const ICS4U0_DSA = () => {
           className='ics-section'
           title="Recursion"
           subtitle=""
-          image={Logo}
+          image={Recursion}
           github="https://github.com/stephen-ics/ICS4U0-DS-A/tree/main/Recursion"
         >
         </ICSSection>  
