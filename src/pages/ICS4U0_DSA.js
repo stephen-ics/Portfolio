@@ -49,7 +49,6 @@ const ICS4U0_DSA = () => {
           title="Data Structures"
           subtitle=""
           image={DataStructures}
-          github="https://github.com/stephen-ics/ICS4U0-DS-A/tree/main/Data%20Structures"
         >
         </ICSSection>    
       </Link>
@@ -61,7 +60,6 @@ const ICS4U0_DSA = () => {
           title="Algorithms"
           subtitle=""
           image={Algorithms}
-          github="https://github.com/stephen-ics/ICS4U0-DS-A/tree/main/Algorithms"
         >
         </ICSSection>    
       </Link>
@@ -73,7 +71,6 @@ const ICS4U0_DSA = () => {
           title="Recursion"
           subtitle=""
           image={Recursion}
-          github="https://github.com/stephen-ics/ICS4U0-DS-A/tree/main/Recursion"
         >
         </ICSSection>  
       </Link>

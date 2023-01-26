@@ -4,7 +4,7 @@ import React from 'react'
 const ICSData = [
   {
     id: "classes",
-    title: "Classes",
+    title: "Classes & Objects",
     image: require("../pictures/ClassesModal.png") ,
     subtitle1: "Python Classes",
     description1:
@@ -77,10 +77,10 @@ const ICSData = [
     subtitle5: "",
     description5:
       "",
-    code1: "Code Example",
-    codeexample1: "Defined from line 108 to 124, the writeSquirtleStatus method applies file reading and writing, passing in the data into json.dumps function to turn the data into json format, then it opens the data file using with open() function, and writes it as the json object into the Pokemon.json json file.",
-    code2: "",
-    codeexample2:"",
+    code1: "Code Example - File Reading",
+    codeexample1: "Regarding reading JSON Files: The file is opened on line 89 with the open function, along with the ‘r’ prompt to show that it’s a file to be read. Then, the data is read through the function json.load(), where the file is loaded into the squirtleData variable as a dictionary. The individual values can then be accessed using the dictionary. ",
+    code2: "Code Example - File Writing",
+    codeexample2:"Regarding writing JSON Files: Defined from line 108 to 124, the writeSquirtleStatus method applies file reading and writing, passing in the data into json.dumps function to turn the data into json format, then on line 123, the data file located in the path “Data/myPokemon.json” is opened using with open() function, along with ‘a’ to show that it’s a file to be appended to. Finally, the json object is written into the Pokemon.json json file.",
     code3: "",
     codeexample3: "",
     code4: "",
@@ -182,9 +182,9 @@ const ICSData = [
     subtitle3: "Tim Sort",
     description3:
       "Timsort is a hybrid sorting algorithm, consisting of a combination of merge sort and insertion sort, designed to change sorting algorithms depending on the size of the data set. It was created by Tim Peters, and is the sorting algorithm utilized in Python.",
-    subtitle4: "",
+    subtitle4: "When to use Selection, Bubble and Tim Sort",
     description4:
-    "",
+    "As stated above, bubble sort and selection sort are extremely similar. However, bubble sort takes its two adjacent elements and compares them to each other, swapping positions when needed while selection sort selects the minimum element and swaps it with the element at the start of the unsorted array. Both selection sort and bubble sort have a time complexity of O(N^2), however, selection sort is much faster as it contains fewer comparisons than bubble sort. Hence, there really isn’t a place to use bubble sort over selection sort, as selection sort will almost always be faster than bubble sort. However, Tim sort, a combination of merge and insertion sort is highly optimized and much faster than both bubble sort and selection sort. It has a time complexity of O(N logN), and should therefore be utilized over bubble sort and selection sort, as it is almost always much faster.",
     subtitle5: "",
     description5:
       "",
@@ -207,9 +207,9 @@ const ICSData = [
     subtitle2: "Binary Search",
     description2:
     "The binary search is a searching algorithm that requires the searched array to be sorted, and it cancels out half of the elements after each comparison. First, the value to be searched is compared with the middle element. If it matches, it returns the index, else if the value is greater than the middle element, the same searching pattern is applied to the right half of the array. If the value is less than the middle element, the left half of the array is cut in half. This repeats until the element is either found or -1 is returned, meaning that the element is not in the array.",
-    subtitle3: "",
+    subtitle3: "When to Use Binary and Linear Search?",
     description3:
-      "",
+      "The time complexity of linear search is O(N), while the time complexity of binary search is O(logN), therefore, binary search has a much lower time complexity than linear search. This makes sense because binary search uses a divide and conquer approach, and does not have to scan every single element in the list. However, binary search only works in sorted arrays, as it assumes that the values are properly ordered. Therefore, when the arrays are sorted, use binary search as it has a faster time complexity, but when the array is unsorted, then use linear search, as it searches through every element in the array and does not need the array to be sorted.",
     subtitle4: "",
     description4:
     "",

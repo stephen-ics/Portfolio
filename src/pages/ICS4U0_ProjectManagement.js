@@ -50,9 +50,7 @@ const ICS4U0_ProjectManagement = () => {
             className='ics-section'
             title="Hop Queen"
             subtitle=""
-            image={HopQueen}
-            github="https://github.com/stephen-ics/Hop-Queen"
-            youtube="https://www.youtube.com/watch?v=-orOY6NSltM">
+            image={HopQueen}>
           </ICSSection> 
         </Link> 
       </motion.div>

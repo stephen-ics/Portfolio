@@ -52,7 +52,7 @@ const ICS4U0_DS = () => {
           whileTap={{ scale:0.95 }}
           className='ics-section'
           id="classes"
-          title="Classes"
+          title="Classes and Objects"
           subtitle=""
           image={Classes}
           github="https://github.com/stephen-ics/ICS4U0-DS-A/blob/main/Data%20Structures/Classes/Pokemon/Squirtle.py"

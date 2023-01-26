@@ -47,7 +47,7 @@ const ICS4U0_ProjectManagent_HopQueen = () => {
         title="Documentation"
         subtitle=""
         image={HopQueenDownload}
-        github="https://github.com/stephen-ics/ICS4U0-DS-A/tree/main/Algorithms"
+        github="https://github.com/stephen-ics/Hop-Queen/blob/main/Game/Assets/Scripts/Menu/SettingsMenu.cs"
       >
       </DisplayICS>    
       <DisplayICS
@@ -58,7 +58,8 @@ const ICS4U0_ProjectManagent_HopQueen = () => {
         title="Download"
         subtitle=""
         image={HopQueenDocumentation}
-        github="https://github.com/stephen-ics/ICS4U0-DS-A/tree/main/Recursion"
+        github="https://github.com/stephen-ics/hop-queen"
+        youtube="https://www.youtube.com/watch?v=-orOY6NSltM"
       >
       </DisplayICS> 
       </motion.div>
